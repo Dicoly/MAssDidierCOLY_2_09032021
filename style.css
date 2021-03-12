@@ -12,7 +12,7 @@ html{
 }
 
 h1 {
-	font-size: 41px;
+	font-size: 20px;
 	color: #0065FC;
 }
 
@@ -29,7 +29,7 @@ h4,h5 {
 }
 
 li {
-	font-size: 32px;
+	font-size: 15px;
 }
 
 a {
@@ -49,17 +49,16 @@ nav {
 	align-items: center;
 	width: 98%;
 	margin: auto;
-	padding: 32px;
+	padding: 13;	
 }
 
 nav ul {
 	display:flex;
-	flex: 1 1 640px;
+	flex: 1 1 200px;
 	justify-content: space-around;
 	align-items: center;
 	list-style: none;
 }
-
 #logo {
-	flex: 2 1 640px;
+	flex: 2 1 200px;
 }
