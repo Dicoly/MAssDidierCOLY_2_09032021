@@ -1,0 +1,58 @@
+@media screen and (max-width:679px) {
+body { background-color: chartreuse;
+}
+}
+
+li {
+    font-size: 1.2em;  
+}
+
+a {   
+    color: #0065FC;
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+	list-style-type: none;  
+}
+
+#inscrire { 
+    display: flex;
+    flex-grow: 1;
+}
+
+#inscrire:nth-child(4) {
+    order: 2;
+}
+
+#hebergements:nth-child(2) {
+    order: 3;
+}
+
+#activites:nth-child(3) {
+    order: 4;
+}
+
+#herbegements {
+	display: flex;
+    
+}
+
+#activite {
+    display: flex;  
+    
+}
+
+#logo {
+    display: flex;
+    align-items: baseline;
+    flex:2 16em
+}
+
+      

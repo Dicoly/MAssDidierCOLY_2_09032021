@@ -1,0 +1,16 @@
+/*GLOBAL CSS*/
+
+@font-face { /* nouvelle police nommée raleway*/
+	font-family: 'police/Raleway-regular';
+	src: url('police/Raleway-Regular.ttf');
+}
+
+html{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;	
+}
+
+body {
+	background: #F2F2F2;
+}
