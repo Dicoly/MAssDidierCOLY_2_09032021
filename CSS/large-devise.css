@@ -4,3 +4,28 @@
     background-color: blue;
     }
 }
+
+li {
+    font-size: 1.3em;
+}
+
+a {   
+    color: #0065FC;
+    text-decoration: none;
+}
+/*HEADER*/
+
+nav ul {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+	list-style-type: none; 
+    width: auto; 
+    flex: 2 1 200px;
+}
+
+#logo {
+
+    flex-grow: 0.8;
+}

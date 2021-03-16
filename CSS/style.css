@@ -1,7 +1,7 @@
 /*GLOBAL CSS*/
 
 @font-face { /* nouvelle police nommée raleway*/
-	font-family: 'police/Raleway-regular';
+	font-family: "Raleway-regular";
 	src: url('police/Raleway-Regular.ttf');
 }
 
@@ -13,4 +13,5 @@ html{
 
 body {
 	background: #F2F2F2;
+	font-family: "Raleway-Regular";
 }

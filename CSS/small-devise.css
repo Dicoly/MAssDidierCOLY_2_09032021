@@ -4,7 +4,7 @@ body { background-color: chartreuse;
 }
 
 li {
-    font-size: 1.2em;  
+    font-size: 1.4em;  
 }
 
 a {   
@@ -17,14 +17,15 @@ a {
 nav ul {
     display:flex;
     flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-	list-style-type: none;  
+	list-style-type: none; 
+    width: auto;
 }
 
-#inscrire { 
-    display: flex;
-    flex-grow: 1;
+#inscrire {    
+    font-weight: bold;
 }
 
 #inscrire:nth-child(4) {
@@ -39,20 +40,9 @@ nav ul {
     order: 4;
 }
 
-#herbegements {
-	display: flex;
-    
-}
-
-#activite {
-    display: flex;  
-    
-}
-
-#logo {
-    display: flex;
+#logo { 
+    flex:3 14em;
     align-items: baseline;
-    flex:2 16em
 }
 
       
