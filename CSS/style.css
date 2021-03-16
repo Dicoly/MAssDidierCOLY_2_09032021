@@ -1,8 +1,9 @@
 /*GLOBAL CSS*/
 
 @font-face { /* nouvelle police nommée raleway*/
-	font-family: "Raleway-regular";
+	font-family: "Ralewayrgular";
 	src: url('police/Raleway-Regular.ttf');
+	font-style: normal;
 }
 
 html{
@@ -13,5 +14,27 @@ html{
 
 body {
 	background: #F2F2F2;
-	font-family: "Raleway-Regular";
+	font-family: "Ralewayregular";
 }
+
+/*header*/
+header {
+	width: auto;
+	height: 2em;
+}
+
+a {
+	text-decoration: none;
+	color: #0065FC;
+}
+
+li {
+    font-size: 1.3em;
+} 
+ 
+#inscrire {    
+    font-weight: bold;
+	
+}
+	
+	

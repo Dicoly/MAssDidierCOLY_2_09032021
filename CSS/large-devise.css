@@ -5,16 +5,7 @@
     }
 }
 
-li {
-    font-size: 1.3em;
-}
-
-a {   
-    color: #0065FC;
-    text-decoration: none;
-}
 /*HEADER*/
-
 nav ul {
     display:flex;
     flex-direction: row;
@@ -25,7 +16,14 @@ nav ul {
     flex: 2 1 200px;
 }
 
-#logo {
+#hebergements:active {
+    text-decoration: overline;
+}
 
+#activites:active {
+    text-decoration: overline;
+}
+
+#logo {
     flex-grow: 0.8;
 }

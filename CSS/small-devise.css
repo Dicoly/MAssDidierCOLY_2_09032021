@@ -3,17 +3,7 @@ body { background-color: chartreuse;
 }
 }
 
-li {
-    font-size: 1.4em;  
-}
-
-a {   
-    color: #0065FC;
-    text-decoration: none;
-}
-
 /*HEADER*/
-
 nav ul {
     display:flex;
     flex-wrap: wrap;
@@ -22,10 +12,6 @@ nav ul {
     justify-content: space-around;
 	list-style-type: none; 
     width: auto;
-}
-
-#inscrire {    
-    font-weight: bold;
 }
 
 #inscrire:nth-child(4) {
@@ -38,6 +24,16 @@ nav ul {
 
 #activites:nth-child(3) {
     order: 4;
+}
+
+#hebergements:active {
+    text-decoration: underline;
+    margin: 3px;
+}
+
+#activites:active {
+    text-decoration: underline;
+    margin: 3px;
 }
 
 #logo { 
