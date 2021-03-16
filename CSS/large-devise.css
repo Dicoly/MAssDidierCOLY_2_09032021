@@ -1,19 +1,22 @@
-@media screen and (mim-width:680px)
-{
-    body{
-    background-color: blue;
-    }
-}
-
 /*HEADER*/
 nav ul {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-	list-style-type: none; 
-    width: auto; 
-    flex: 2 1 200px;
+    justify-content: space-around;
+    list-style-type: none;
+}
+ 
+#inscrire:nth-child(2) {
+    order: 4;
+}
+
+#logo { 
+    display: flex; 
+    flex-grow: 0.3;
+    height: 3rem; 
+    width: 35rem;
+    margin: 1.1rem;
 }
 
 #hebergements:active {
@@ -22,8 +25,4 @@ nav ul {
 
 #activites:active {
     text-decoration: overline;
-}
-
-#logo {
-    flex-grow: 0.8;
 }

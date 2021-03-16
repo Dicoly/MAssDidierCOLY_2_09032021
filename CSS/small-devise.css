@@ -1,44 +1,28 @@
-@media screen and (max-width:679px) {
-body { background-color: chartreuse;
-}
-}
-
 /*HEADER*/
 nav ul {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-	list-style-type: none; 
-    width: auto;
+    list-style-type: none;  
 }
 
-#inscrire:nth-child(4) {
-    order: 2;
+nav ul li { 
+    flex-grow: 2;
+    width: 35vw;
+    justify-content: space-between;
 }
 
-#hebergements:nth-child(2) {
-    order: 3;
+#logo { 
+    display: flex; 
+    height: 3rem; 
 }
 
-#activites:nth-child(3) {
-    order: 4;
-}
 
 #hebergements:active {
     text-decoration: underline;
-    margin: 3px;
 }
 
 #activites:active {
     text-decoration: underline;
-    margin: 3px;
 }
-
-#logo { 
-    flex:3 14em;
-    align-items: baseline;
-}
-
-      
