@@ -32,5 +32,13 @@ a[class="class"] {
 }
 
 li {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+}
+
+#titreheberg {
+	font-size: 18px;	
+}
+
+p {
+	font-size: 20px;
 }
