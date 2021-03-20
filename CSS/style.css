@@ -20,6 +20,7 @@ body {
 a {
 	text-decoration: none;
 	color: #0065FC;
+	font-size: 1.8rem;
 }
 
 a[selected="selected"] {
@@ -31,14 +32,12 @@ a[class="class"] {
 	color: black;
 }
 
-li {
-    font-size: 1.2rem;
+#imginfo {
+    width: 15px;
+	margin-top: 3px;
 }
 
-#titreheberg {
-	font-size: 18px;	
-}
-
-p {
-	font-size: 20px;
+.pinfo {
+    font-size: 16px;
+	padding: 10px; 
 }
