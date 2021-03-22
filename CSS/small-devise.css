@@ -52,11 +52,10 @@ p {
 
 input {
     position: relative;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 input[type="text"] {
-    background: #F2F2F2;
     width: 240px;
     height: 0px;
     border: 1px solid rgb(189, 185, 184);
@@ -72,7 +71,7 @@ input[type="text"] {
     left: -15px;
     border-radius: 12px;
     width: 45px;
-    height: 40px;
+    height: 43px;
     border: none;
     outline: none;
     background: #0065FC;   
@@ -82,19 +81,19 @@ input[type="text"] {
     position: relative;
     border-radius: 12px 0px 0px 12px;
     width: 45px;
-    height: 40px;
+    height: 43px;
     left: 8px;
     border: none;
     outline: none;
-    background: #e3e6e9;
+    background: #F2F2F2;
 }
 
 #imgicon { 
-    width: 10px;
+    width: 12px;
 }
 
 #imgsearch {
-    width: 13px;
+    width: 15px;
 }
 
 /* les filtres*/
@@ -169,15 +168,17 @@ input[type="text"] {
 /*ensemble submit economique*/
 .economique {
     position: relative;
-    width: 185px;
+    width: 190px;
     height: 42px;
     padding: 0px 16px;
     border-radius: 25px;
-    border-style: solid;
+    border-style: 1px groove #F2F2F2;
     font-weight: bold;
     text-align: right;
     margin-right: 80px;
     margin-bottom: 20px;
+    background:none;
+    
 }
 
 /*ensemble bouton familial*/
@@ -185,23 +186,23 @@ input[type="text"] {
     position: absolute;
     border-radius: 30px;
     border: none;
-    left: 225px;
-    margin-top: 6px;
+    left: 230px;
+    margin-top: 5px;
     background: #DEEBFF;
 }
 
 /*ensemble  submit  familial*/
 .familial {
     position: relative;
-    background: #F2F2F2;
     border-radius: 40px;
-    border-style: solid;
-    width: 130px;
+    border-style: 1px groove #F2F2F2;
+    width: 135px;
     height: 42px;
     padding: 0px 16px;
     font-weight: bold;
     text-align: right;
     margin-left: -50px;
+    background:none;
 }
 
 /*ensemble bouton romantique*/
@@ -209,7 +210,7 @@ input[type="text"] {
     position: absolute;
     border-radius: 25px;
     left: 10px;
-    margin-top: 6px;
+    margin-top: 5px;
     border: none;
     background: #DEEBFF; 
 }
@@ -217,16 +218,16 @@ input[type="text"] {
 /*ensemble  submit  romantique*/
 .romantique {
     position: relative;
-    background: #F2F2F2;
     border-radius: 25px;
-    border-style: solid;
-    width: 180px;
+    border-style: 1px groove #F2F2F2;
+    width: 185px;
     height: 42px;
     padding: 5px 16px;
     font-weight: bold;
     text-align: right;
     margin-right: 220px;
     margin-bottom: 20px;
+    background:none;
 }
 
 /*ensemble bouton romantique*/
@@ -234,7 +235,7 @@ input[type="text"] {
     position: absolute;
     border-radius: 25px;
     left: 10px;
-    margin-top: 6px;
+    margin-top: 5px;
     border: none;
     outline: none;
     background: #DEEBFF;    
@@ -243,22 +244,140 @@ input[type="text"] {
 /*ensemble  submit  romantique*/
 .animaux {
     position: relative;
-    background: #F2F2F2;
     border-radius: 25px;
-    border-style: solid;
-    width: 230px;
+    border-style: 1px groove #F2F2F2;
+    width: 245px;
     height: 42;
-    padding: 10px 16px;
+    padding: 8px 16px;
     font-weight: bold;
     text-align: right;
     margin-left: 2px;
-    margin-bottom: 20px;
+    background:none;
 }
 
 #imginfo {
-    width: 25px;
+    width: 20px;
 }
 
 .pinfo {
-    font-size: 25px; 
+    font-size: 25px;
+}
+
+/* Debut partie Aside pour les plus populaies*/
+aside{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    margin: 0px;
+    padding-bottom: 15px;
+}
+
+#h1aside {
+    position: relative;
+    margin-bottom: 50px;
+    left: 20px;
+    top: 20px;
+    font-size: 25px;
+}
+
+#iconchart {
+    width: 25px;
+}
+
+#chartline {
+    position: absolute;
+    margin-top: -60px;
+    left: 400px;
+    border: none;
+}
+
+/*Aside 1*/
+.hoteldusoleil {
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 20px;
+    padding: 5px 5px 0px 5px;
+    background-color: #fff;
+    box-sizing: border-box;   
+}
+
+.imgsoleil {
+    width: 190px;
+    height: 200px;
+    border-radius: 25px 0px 0px 25px;
+    padding: 5px;
+    object-fit: cover;
+}
+
+.hotelsoleil{
+    position: absolute;
+    margin-left: 220px;
+    margin-top: -220px;
+}
+
+.star01 {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.starsoleil {
+    width: 20px;
+    padding-left: 5px; 
+}
+
+/*Section pour les lieux d'hergements*/
+section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.h1section {
+    font-size: 25px;
+}
+
+/*Section 1*/
+.aubergelacannebiere {
+    border-radius: 25px;
+    font-size: 15px;
+    margin: 5px;
+    padding: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.imgherberg {
+    width: 408px;
+    height: 150px;
+    border-radius: 25px 25px 0px 0px;
+    margin: auto;
+    object-fit: cover;
+    margin-bottom: 100px;
+    outline: none;
+}
+
+.aubcannebiere {
+    padding-left: 10px;
+    margin-top: -110px;
+    position: absolute;
+}
+
+.psect {
+    margin-top: -10px;
+}
+
+.starsect1 {
+    display: flex;
+    font-size: 20px;
+    position: absolute;
+}
+
+.starcannebiere {
+    width: 20px;
+    padding-left: 5px;
+    margin-top: -10px;  
 }
