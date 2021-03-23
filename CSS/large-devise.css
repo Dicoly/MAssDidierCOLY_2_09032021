@@ -3,20 +3,27 @@ nav ul {
     display:flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     list-style-type: none;
 }
  
-#inscrire:nth-child(2) {
-    order: 4;
+nav ul {
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    list-style-type: none;
+    padding-left: 5px;
+    margin-right: 10px;
 }
 
 #logo { 
     display: flex; 
-    flex-grow: 0.3;
-    height: 3rem; 
-    width: 35rem;
-    margin: 1.1rem;
+    flex-grow: 0.8;
+}  
+
+#inscrire:nth-child(2) {
+    order: 4;
 }
 
 #hebergements:active {
@@ -25,9 +32,121 @@ nav ul {
 
 #activites:active {
     text-decoration: overline;
+}   
+
+/* zone de recherche*/
+h1 {
+    font-size: 16px;
+    margin: 10px;
 }
 
-/* Debut partie Aside pour les plus populaies*/
+p {
+    margin: 15px;
+}
+
+form ul {
+    display: flex;
+    flex-direction: row;
+    margin-left: -25px;  
+}
+
+form ul li {
+    display: flex;
+    flex-direction: row; 
+}
+
+input {
+    font-size: 15px;
+    height: 35px;
+    width: 200px;
+    outline: none;
+    border: none;
+	border: 1px solid #F2F2F2; 
+}
+
+input[type="text"] {
+    outline: none;
+    padding: 5px;
+    color: #000;
+    font-weight: bold;
+}
+
+#boutonsearch {
+    visibility: hidden;
+}
+
+#imgiconmap {
+    width: 15px;
+    margin: 5px;
+}
+
+#boutonmap {
+    border-radius: 12px 0px 0px 12px;
+    border: none;
+    outline: none;
+    background:#F2F2F2;
+}
+
+#bsearch {
+    width: 100px;
+    margin-left: -16px;
+    background:#0065FC;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0px 12px 12px 0px;
+}
+.form ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.form ul li {
+    display: flex;
+    align-items: center;
+}
+
+input[type="submit"]{
+    height: 40px;
+    outline: none;
+    padding: 5px 15px;
+    color: #000;
+    font-weight: bold;
+    margin: 10px;
+    border-radius: 30px;
+    text-align: right;
+    font-size: 16px;
+
+}
+
+.iconsfiltre {
+    width: 40px;
+    display: flex;
+    height: 40px;
+    border-radius: 30px;
+    padding: 8px;
+    padding-left: 50;
+}
+
+.economique {
+    width: 170px;
+     
+}
+
+.familial {
+    width: 130px;
+    
+}
+
+.romantique {
+    width: 180px;
+}
+
+.animaux {
+    width: 230px;
+}
+/* Debut partie Aside pour les plus populaies*
 aside{
     display: flex;
     flex-direction: column;
@@ -99,7 +218,7 @@ section {
     margin: 20px;
     margin-top: 40px;
 }
-
+/*
 h1 {
     font-size: 25px;
 }

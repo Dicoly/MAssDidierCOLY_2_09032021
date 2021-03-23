@@ -21,30 +21,34 @@
             </ul>
         </nav>
     </header>
-    <div id="zonerecheche"> <!-- la partie rechercher-->
-        <div id="titreheberg">
-            <h1>Trouver votre hébergement pour des vacances de reve</h1>
-            <p>En plein centre ville ou en plein nature</p>
-                <div id="barrecherche">
-                    <form id="=recherche">
-                        <button id="bmap"><img src="images/icons/map.svg" alt="icon map" id="imgicon"/></button>
-                        <input type="text" name="ville"   placeholder="Marseille, france"/>                     
-                        <button id="bsearch"><img src="images/icons/search-solid.svg" alt="icon search" id="imgsearch"/></button>
-                    </form> 
-                </div>
-                <div class="filtres"> <!-- la zone des filtres-->
-                    <p id="pfiltres">Filtres</p>
-                    <form class="form">
-                         <input type="submit" value="Economique" class="economique"/>
-                        <button id="econom"><img src="images/icons/money-bill-wave-solid.svg" alt="icon Economique" id="imgeco"></button>
-                        <input type="submit" value="Familial" class="familial"/>
-                        <button id="fam"><img src="images/icons/child-solid.svg" alt="icon Familial" id="imgfam"></button>
-                        <input type="submit" value="Romantique" class="romantique"/>
-                        <button id="rom"><img src="images/icons/heart-solid.svg" alt="icon Romantique" id="imgrom"></button>
-                        <input type="submit" value="Animaux autorisés" class="animaux"/>
-                        <button id="ani"><img src="images/icons/dog-solid.svg" alt="icon Animaux" id="imgani"></button>                    
-                    </form>
-                    <div > 
+    <!--la partie rechercher-->
+    <div>
+        <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+        <p>En plein centre ville ou en pleine nature</p>
+        <form id="=recherche">
+            <ul>
+                <li><button id="boutonmap"><img src="images/icons/map.svg" alt="icon map" id="imgiconmap"/></button> </li>
+                <li><input type="text" name="ville"   placeholder="Marseille, france"/> </li>
+                <li><button id="boutonsearch"><img src="images/icons/search-solid.svg" alt="icon search" id="imgsearch"/></button></li>
+                <li><button id="bsearch">Rechercher</button></li>
+            </ul>   
+        </form> 
+    
+        <div class="filtres"> <!--la zone des filtres-->
+            <p id="pfiltres">Filtres</p>
+            <form class="form">
+                <ul>
+                    <li><input type="submit" value="Economique" class="economique"/></li>
+                    <li><button class="iconsfiltre"><img src="images/icons/money-bill-wave-solid.svg" alt="icon Economique" id="imgeco"></button></li>
+                    <li><input type="submit" value="Familial" class="familial"/></li>
+                    <li><button class="iconsfiltre"><img src="images/icons/child-solid.svg" alt="icon Familial" id="imgfam"></button></li>
+                    <li><input type="submit" value="Romantique" class="romantique"/></li>
+                    <li><button class="iconsfiltre"><img src="images/icons/heart-solid.svg" alt="icon Romantique" id="imgrom"></button></li>
+                    <li><input type="submit" value="Animaux autorisés" class="animaux"/></li>
+                    <li><button class="iconsfiltre"><img src="images/icons/dog-solid.svg" alt="icon Animaux" id="imgani"></button></li>    
+                </ul>                   
+            </form>
+        <div > 
                         <p class="pinfo"> 
                             <img src="images/icons/info-circle-solid.svg" alt="icon info" id="imginfo"/>
                             Plus de 500 logements sont disponibles dans cette ville
@@ -53,14 +57,14 @@
                 </div>
         </div>
     </div>
-    <aside> <!-- Pour les plus populairs-->
+ <!--   <aside> 
         <div>
         <h1>Les plus populaires</h1>
         <form class="chartline">
             <button id="chartline"><img src="images/icons/chart-line-solid.svg" alt="Chart-line" id="iconchart"></button>
         </form>
         </div>
-        <aside class="hoteldusoleil"> <!-- Aside 1-->
+        <aside class="hoteldusoleil">  
             <div>
                 <div>
                     <a href="#soleil"><img src="images/hebergements/hotel-le-soleil.jpg" alt="Hotel le soleil du matin" class="imgsoleil"/></a>
@@ -80,7 +84,7 @@
                 </div>
             </div>
         </aside>
-        <aside class="hoteldusoleil"> <!-- Aside 2-->
+        <aside class="hoteldusoleil"> 
             <div>
                 <div>
                     <a href="#aucoeur"><img src="images/hebergements/au-coeur-eau.jpg" alt="Au coeur de l'eau" class="imgsoleil"/></a>
@@ -100,7 +104,7 @@
                 </div>
             </div>
         </aside>
-        <aside class="hoteldusoleil"> <!-- Aside 3-->
+        <aside class="hoteldusoleil"> 
             <div>
                 <div>
                     <a href="#bleublanc"><img src="images/hebergements/hotel-tout-bleu.jpg" alt="Hôtel Tout bleur et Blanc" class="imgsoleil"/></a>
@@ -121,11 +125,11 @@
             </div>
         </aside>       
     </aside>
-    <section><!--Pour les hébergement-->
+    <section>
         <div>
             <h1>Hébergements à Marseille</h1>
         </div>
-        <section class="aubergelacannebiere"> <!-- section 1-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hcannebiere"><img src="images/hebergements/auberge-cannebiere.jpg" alt="Auberge Cannebiére" class="imgherberg"/></a>
@@ -143,7 +147,7 @@
                 </div>
             </div>
         </section>
-        <section class="aubergelacannebiere"> <!-- section 2-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hport"><img src="images/hebergements/hotel-du-port.jpg" alt="Hotel du-port" class="imgherberg"/></a>
@@ -161,7 +165,7 @@
                 </div>
             </div>
         </section>
-        <section class="aubergelacannebiere"> <!-- section 3-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hmouettes"><img src="images/hebergements/hotel-les-mouettes.jpg" alt="Hotel les mouettes" class="imgherberg"/></a>
@@ -179,7 +183,7 @@
                 </div>
             </div>
         </section>
-        <section class="aubergelacannebiere"> <!-- section 4-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hmer"><img src="images/hebergements/hotel-de-la-mer.jpg" alt="Hotel de la mer" class="imgherberg"/></a>
@@ -197,7 +201,7 @@
                 </div>
             </div>
         </section>
-        <section class="aubergelacannebiere"> <!-- section 4-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hpanier"><img src="images/hebergements/auberge-le-panier.jpg" alt="Auberge Le Panier" class="imgherberg"/></a>
@@ -215,7 +219,7 @@
                 </div>
             </div>
         </section>
-        <section class="aubergelacannebiere"> <!-- section 4-->
+        <section class="aubergelacannebiere"> 
             <div>
                 <div>
                     <a href="#hamina"><img src="images/hebergements/hotel-chez-amina.jpg" alt="Hôtel chez Amina" class="imgherberg"/></a>
@@ -236,6 +240,6 @@
         <div>
            <p><a href="#afficherplus" id="pafficherplus">Afficher plus</a></p> 
         </div>
-    </section>
+    </section>-->
 </body>
 </html>
