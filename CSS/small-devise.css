@@ -2,235 +2,56 @@
 body {
     background: #be57c771;
 }
-
 nav ul {
     display:flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items: center;
-    list-style-type: none; 
-}
+    list-style-type: none;
+    padding-left: 5px;
 
-nav ul li { 
+}
+nav ul li {
+    display: flex;
     flex-grow: 2;
     width: 35vw;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 25px;
 }
-
-#logo { 
-    display: flex; 
-    height: 3rem;
+#logo {
+    display: flex;
+    flex-grow: 2;
+    width: 200px;
 }
+#inscrire {
+    flex-grow: 2;
+}
+#hebergements {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+#activites {
+    display: flex;
+    flex-grow: 1;
+    margin-left: 10px;
+}
+#imglogo {
+    width: 100px;
 
+}
 #hebergements:active {
     text-decoration: underline;
 }
-
 #activites:active {
     text-decoration: underline;
 }
 
 /* zone de recherche*/
-input {
-    position: relative;
-    font-size: 20px;
+h1 {
+    font-size: 30px;
+    margin: 10px;
 }
 
-input[type="text"] {
-    background: #F2F2F2;
-    width: 250px;
-    height: 40px;
-    border: 1px solid rgb(189, 185, 184);
-    outline: none;
-    padding: 10px;
-    color: #000;
-    font-weight: bold;   
-}
-
-#bsearch {
-    position: relative;
-    left: -13px;
-    border-radius: 12px;
-    width: 45px;
-    height: 40px;
-    border: none;
-    outline: none;
-    background: #0065FC;   
-}
-
-#bmap {
-    position: relative;
-    border-radius: 12px 0px 0px 12px;
-    width: 45px;
-    height: 40px;
-    left: 6;
-    border: none;
-    outline: none;
-    background: #e3e6e9;
-}
-
-#imgicon { 
-    width: 10px;
-}
-
-#imgsearch {
-    width: 14px;
-}
-
-/* les filtres*/
-.filtres {
-    font-size: 20px;
-    margin: 2px;
-    line-height: 50px;
-}
-
-#pfiltres {
-    font-size: 25px;
-    font-weight: bold;
-    text-align: left;
-    margin-left: 5px;
-    margin-bottom: -5px;
-}
-
-.form {
-    display: flex;
-    margin: 5px;
-    flex-wrap: wrap;
-    display: block;
-}
-
-#imgeco {
-    width: 31px;
-    height: 40px;
-}
-
-#imgfam {
-    width: 31px;
-    height: 40px;
-}
-
-#imgrom {
-    width: 31px;
-    height: 40px;
-}
-
-#imgani {
-    width: 31px;
-    height: 40px;
-}
-
-.economique:hover {
-    background-color: #00d6fc;
-}
-
-.familial:hover {
-    background-color: #00d6fc;
-}
-
-.romantique:hover {
-    background-color: #00d6fc;
-}
-
-.animaux:hover {
-    background-color: #00d6fc;
-}
-
-/*ensemble bouton icone economique*/
-
-#econom { 
-    position: absolute;
-    border-radius: 30px;
-    border: none;
-    left: 6px;
-    margin-top: 4px;
-    background: #DEEBFF;
-}
-
-/*ensemble submit economique*/
-.economique {
-    position: relative;
-    width: 190px;
-    height: 42px;
-    padding: 0px 16px;
-    border-radius: 25px;
-    border-style: solid;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 110px;
-    margin-bottom: 20px;
-}
-
-/*ensemble bouton familial*/
-#fam { 
-    position: absolute;
-    border-radius: 30px;
-    border: none;
-    left: 260px;
-    margin-top: 5px;
-    background: #DEEBFF;
-}
-
-/*ensemble  submit  familial*/
-.familial {
-    position: relative;
-    background: #F2F2F2;
-    border-radius: 40px;
-    border-style: solid;
-    width: 150px;
-    height: 42px;
-    padding: 0px 16px;
-    font-weight: bold;
-    text-align: right;
-    margin-left: -50px;
-}
-
-/*ensemble bouton romantique*/
-#rom { 
-    position: absolute;
-    border-radius: 25px;
-    left: 6px;
-    margin-top: -1px;
-    border: none;
-    background: #DEEBFF; 
-}
-
-/*ensemble  submit  romantique*/
-.romantique {
-    position: relative;
-    background: #F2F2F2;
-    border-radius: 25px;
-    border-style: solid;
-    width: 200px;
-    height: 42px;
-    padding: 5px 16px;
-    font-weight: bold;
-    text-align: right;
-    margin-right: 220px;
-    margin-bottom: 20px;
-}
-
-/*ensemble bouton romantique*/
-#ani { 
-    position: absolute;
-    border-radius: 25px;
-    left: 6px;
-    margin-top: -1px;
-    border: none;
-    outline: none;
-    background: #DEEBFF;    
-}
-
-/*ensemble  submit  romantique*/
-.animaux {
-    position: relative;
-    background: #F2F2F2;
-    border-radius: 25px;
-    border-style: solid;
-    width: 280px;
-    height: 42;
-    padding: 5px 16px;
-    font-weight: bold;
-    text-align: right;
-    margin-left: 2px;
+p {
+    margin: 15px;
 }

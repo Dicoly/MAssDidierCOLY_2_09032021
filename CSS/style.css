@@ -9,12 +9,13 @@
 html{
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;	
+	box-sizing: border-box;
 }
+
 body {
-	background: #F2F2F2;
 	font-family: "Ralewayregular";
 }
+
 /*header*/
 
 a {
@@ -22,8 +23,7 @@ a {
 	color: #0065FC;
 }
 
-a[selected="selected"] {
-	text-decoration: none;
+a[id="id"] {
 	font-weight: bold;
 }
 
@@ -31,14 +31,7 @@ a[class="class"] {
 	color: black;
 }
 
-li {
-    font-size: 1.2rem;
-}
-
-#titreheberg {
-	font-size: 18px;	
-}
-
-p {
-	font-size: 20px;
+#imginfo {
+    width: 15px;
+	margin-top: 3px;
 }
