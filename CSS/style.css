@@ -1,37 +1,30 @@
 /*GLOBAL CSS*/
-
 @font-face { /* nouvelle police nommée raleway*/
 	font-family: "Ralewayrgular";
 	src: url('police/Raleway-Regular.ttf');
 	font-style: normal;
 }
 
-html{
+body {
 	margin: 0px;
 	padding: 0px;
-	box-sizing: border-box;
-}
-
-body {
 	font-family: "Ralewayregular";
 }
 
 /*header*/
-
 a {
 	text-decoration: none;
 	color: #0065FC;
 }
 
-a[id="id"] {
-	font-weight: bold;
-}
-
-a[class="class"] {
+.activites {
 	color: black;
 }
 
-#imginfo {
-    width: 15px;
-	margin-top: 3px;
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+	padding: 0px;
+    margin: 0px;
 }
