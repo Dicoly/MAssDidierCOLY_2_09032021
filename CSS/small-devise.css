@@ -1,14 +1,15 @@
 /*HEADER*/
 nav ul {
     flex-wrap: wrap;
-    padding-top: 20px;
+    padding-top: 1.2rem;
+    align-items: center;
 }
 
 nav ul li {
     display: flex;
     width: 50vw;
-    justify-content: center;
-    padding-top: 20px;
+    justify-content: space-around;
+    padding-top: 1rem;
 }
 
 #activites:hover, 
@@ -17,12 +18,12 @@ nav ul li {
 }
 
 #hebergements {
-    margin-left: 40px;
+    margin-left: 3rem;
 }
 
 #activites, 
 #hebergements {
     border-bottom: 2px solid #F2F2F2; 
-    padding-bottom: 15px ;
+    padding-bottom: 1rem;
     width: 40vw;  
 }
