@@ -6,9 +6,9 @@ nav ul {
 
 nav ul li {
     display: flex;
-    width: 45vw;
-    padding-bottom: 0.5em;
+    width: 50vw;
     justify-content: center;
+    padding-top: 20px;
 }
 
 #activites:hover, 
@@ -17,9 +17,12 @@ nav ul li {
 }
 
 #hebergements {
-    padding-left: 18px;
+    margin-left: 40px;
 }
 
-#inscrire {
-    padding-left: 30px;
+#activites, 
+#hebergements {
+    border-bottom: 2px solid #F2F2F2; 
+    padding-bottom: 15px ;
+    width: 40vw;  
 }
