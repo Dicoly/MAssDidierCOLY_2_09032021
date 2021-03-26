@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="CSS/style.css"/>
     <link rel="stylesheet" media="screen and (min-width: 680px)" href="CSS/large-devise.css"/>
     <link rel="stylesheet" media="screen and (max-width: 679.999px)" href="CSS/small-devise.css"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 <body>
     <!-- En-tete-->
@@ -21,5 +22,46 @@
             </ul>
         </nav>
     </header>
+    <main>
+        <div> <!--la partie rechercher -->
+            <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form id="=recherche">
+                <ul>
+                    <li><button id="boutonmap"><i class="fas fa-map-marker-alt" id="imgiconmap"></i></button> </li>
+                    <li><label for="ville"></label><input type="text" name="ville" id="ville" placeholder="Marseille, france"/> </li>
+                    <li><button id="boutonsearch"><i class="fas fa-search" id="imgsearch"></i></button></li>
+                    <li><button id="bsearch">Rechercher</button></li>
+                </ul>   
+            </form> 
+        </div>
+        <div class="filtres">
+            <p class="titrefiltre">Filtres</p>
+            <div class="menufiltres">
+                <div class="monfiltre">
+                    <div class="monicone"><i class="fas fa-money-bill-wave"></i></div>
+                    <p>Economique</p>
+                </div>
+                <div class="monfiltre">
+                    <div class="monicone"><i class="fas fa-child"></i></i></div>
+                    <p>Familial</p>
+                </div>
+                <div class="monfiltre">
+                    <div class="monicone"><i class="fas fa-heart"></i></i></div>
+                    <p>Romantique</p>
+                </div>
+                <div class="monfiltre">
+                    <div class="monicone"><i class="fas fa-dog"></i></i></div>
+                    <p>Animaux autorisés</p>
+                </div>
+            </div>
+        </div>
+        <div class="info"> 
+            <div class="infopara">       
+                <i class="fas fa-info"id="iconinfo"></i>
+                <p>Plus de 500 logements sont disponibles dans cette ville</p>
+            </div> 
+        </div>
+    </main>
 </body>
 </html>

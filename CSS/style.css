@@ -1,30 +1,30 @@
 /*GLOBAL CSS*/
 @font-face { /* nouvelle police nommée raleway*/
-	font-family: "Ralewayrgular";
-	src: url('police/Raleway-Regular.ttf');
-	font-style: normal;
+    font-family: "Ralewayrgular";
+    src: url('police/Raleway-Regular.ttf');
+    font-style: normal;
 }
 
 body {
-	margin: 0px;
-	padding: 0px;
-	font-family: "Ralewayregular";
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ralewayregular";
 }
 
 /*header*/
 a {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
 
 #inscrire a {
-	color: #0065FC;
+    color: #0065FC;
 }
 
 nav ul {
     display: flex;
     list-style-type: none;
-	padding: 0px;
+    padding: 0px;
     margin: 0px;
 }
 
@@ -34,5 +34,113 @@ nav ul {
 }
 
 #imglogo {
-	width: 80px;
+    width: 5rem;
+}
+
+/* la zone de recherche*/
+h1 {
+    font-size: 1.3rem;
+}
+
+form ul {
+    display: flex;
+}
+
+form ul li {
+    display: flex;
+    margin-left: -1.2rem;
+}
+
+input {
+    font-size: 1rem;
+    height: 2.4rem;
+    outline: none;
+    border: none;
+    border: 1px solid #F2F2F2;
+    margin-left: 1.2rem;
+}
+
+input[type="text"] {
+    outline: none;
+    padding-left: 0.8rem;
+    color: #000;
+    font-weight: bold;
+}
+
+#imgiconmap {
+    width: 2rem;
+    color: #000;  
+}
+
+#boutonmap {
+    border-radius: 12px 0px 0px 12px;
+    border: none;
+    outline: none;
+    background:#F2F2F2;
+    margin-left: -1.5rem;
+}
+
+/* les filtres */
+.titrefiltre {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.menufiltres {
+    display: flex;
+}
+
+.monfiltre  { 
+    display: flex;
+    align-items: center;
+    border: 3px solid #F2F2F2;
+    border-radius: 2.4rem;
+    padding-right: 10px;
+    height: 2.7rem;
+    margin-right: 8px;
+    margin-left: -6px;
+    font-weight: bold;
+    margin-bottom: 15px;   
+}
+
+.monicone .fas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    background: #DEEBFF;
+    width: 2.7rem;
+    text-align: center;
+    line-height: 2.7rem;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.monfiltre:hover {
+    background: #0065FC;
+}
+
+.info {
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    padding-left: 10px;
+}
+
+.infopar {
+    margin-left: 10px;
+}
+
+#iconinfo {
+    display: flex;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: #0065FC;
+    margin-left: -1.9rem;
+    border-radius: 50%;
+    border: 3px solid #F2F2F2;
+    background-color: #fff;
+    margin-top: -4px;
 }

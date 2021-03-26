@@ -1,4 +1,11 @@
 /*HEADER*/
+
+body main {
+    margin: 0rem 3rem;
+    align-items: center;
+    width: 78vw;
+}
+
 nav ul {
     flex-wrap: wrap;
     padding-top: 1.2rem;
@@ -18,7 +25,7 @@ nav ul li {
 }
 
 #hebergements {
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 #activites, 
@@ -26,4 +33,36 @@ nav ul li {
     border-bottom: 2px solid #F2F2F2; 
     padding-bottom: 1rem;
     width: 40vw;  
+}
+
+/* zone de recherche */
+#bsearch {
+    visibility: hidden;
+}
+
+#imgsearch {
+    width: 2rem;
+    color: #fff;  
+}
+
+input {
+    width: 13rem;
+}
+
+#boutonsearch {
+    border-radius: 12px;
+    margin-left: -1rem;
+    background:#0065FC;
+    border: none;
+    outline: none;
+}
+
+/* les filtres*/
+
+.menufiltres {
+    flex-wrap: wrap;
+}
+
+.monfiltre  { 
+    margin-right: 8px;
 }
