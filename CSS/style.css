@@ -11,35 +11,44 @@ body {
     font-family: "Ralewayregular";
 }
 
-/*header*/
+/* header */
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    padding: 0px;
+}
+
+.combine a:active {
+    color:  #0065FC;
+}
+
 a {
-    text-decoration: none;
     color: black;
+    text-decoration: none;	
+}
+
+#imglogo {
+    width: 5em;
 }
 
 #inscrire a {
     color: #0065FC;
 }
 
-nav ul {
-    display: flex;
-    list-style-type: none;
-    padding: 0px;
-    margin: 0px;
-}
 
-#activites a:active, 
-#hebergements a:active {
-    color:  #0065FC;
-}
-
-#imglogo {
-    width: 5rem;
+#logo {
+    flex-grow: 1;
 }
 
 /* la zone de recherche*/
 h1 {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+}
+
+.plieu {
+    font-size: 1.1rem;
 }
 
 form ul {
@@ -52,12 +61,13 @@ form ul li {
 }
 
 input {
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 2.4rem;
     outline: none;
     border: none;
     border: 1px solid #F2F2F2;
     margin-left: 1.2rem;
+    width: 16rem;
 }
 
 input[type="text"] {
@@ -77,12 +87,12 @@ input[type="text"] {
     border: none;
     outline: none;
     background:#F2F2F2;
-    margin-left: -1.5rem;
+    margin-left: -1.3rem;
 }
 
 /* les filtres */
 .titrefiltre {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
@@ -93,14 +103,12 @@ input[type="text"] {
 .monfiltre  { 
     display: flex;
     align-items: center;
-    border: 3px solid #F2F2F2;
+    border: 2px solid #F2F2F2;
     border-radius: 2.4rem;
-    padding-right: 10px;
-    height: 2.7rem;
-    margin-right: 8px;
-    margin-left: -6px;
+    padding-right: 1.2rem;
+    height: 2.6rem;
     font-weight: bold;
-    margin-bottom: 15px;   
+    margin-bottom: 15px; 
 }
 
 .monicone .fas {
@@ -109,11 +117,11 @@ input[type="text"] {
     justify-content: center;
     color: #0065FC;
     background: #DEEBFF;
-    width: 2.7rem;
+    width: 2.9rem;
     text-align: center;
-    line-height: 2.7rem;
+    line-height: 2.9rem;
     border-radius: 50%;
-    margin-right: 8px;
+    margin-right: 13px;
 }
 
 .monfiltre:hover {
@@ -121,9 +129,10 @@ input[type="text"] {
 }
 
 .info {
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     margin-left: 1rem;
     padding-left: 10px;
+    margin-bottom: 3rem;
 }
 
 .infopar {
@@ -143,4 +152,115 @@ input[type="text"] {
     border: 3px solid #F2F2F2;
     background-color: #fff;
     margin-top: -4px;
+}
+
+/*Aside pour les plus populaires*/
+aside{
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+    width: 100vw;
+    border: none;
+}
+
+aside h1{
+    margin-left: 1.8rem;
+    margin-top: 2rem;
+}
+
+#chart {
+    width: 3rem;
+    height: 1.5rem;
+}
+
+.iconchart {
+    margin-left: 5rem;
+    border: none;
+}
+
+.figureaside {
+    display: flex;
+    border-radius: 25px;
+    font-size: 9px;
+    padding: 3px;
+    background-color: #fff;
+    margin-left: 1.5rem;
+    margin-right: 0.5rem; 
+    width: 20.5rem;
+}
+
+.imgaside {
+    display: flex;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 25px 0px 0px 25px;
+    padding: 2px;
+    outline: none;
+    object-fit: cover;
+}
+
+figcaption {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+figcaption h2{
+    font-size: 0.9rem;
+}
+
+figcaption p {
+    font-size: 0.8rem;
+}
+
+.fastar {
+    padding-top: 30px;
+}
+
+.fastar a{
+    padding-left: 1px;
+    color: #0065FC;
+}
+
+.fastar .grise{
+    color: #a19e9e;
+}
+
+/*Section les Hbergements à Marseille*/
+section h1 {
+    margin-left: 1.8rem;
+    margin-top: 2rem;
+}
+
+.figuresection {
+    border-radius: 25px 25px;
+    font-size: 0.8rem;
+    padding: 3px 3px;
+    background-color: #fff;
+    margin-left: 1.5rem;
+}
+
+.imgheberg {
+    height: 6rem;
+    padding: 2px 2px;
+    margin-bottom: -5px;
+    border-radius: 25px 25px 0px 0px;
+    object-fit: cover;
+    outline: none;
+}
+
+.fasstar {
+    padding-bottom: 10px;
+}
+
+.fasstar a{
+    padding-left: 1px;
+    color: #0065FC;
+}
+
+.fasstar .grise{
+    color: #a19e9e;
+}
+
+.afficherplus {
+    margin-left: 1.8rem;
+    font-size: 1.3rem;
 }

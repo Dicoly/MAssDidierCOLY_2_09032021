@@ -1,38 +1,53 @@
 /*HEADER*/
-
 body main {
-    margin: 0rem 3rem;
+    margin: 0rem 2rem;
     align-items: center;
-    width: 78vw;
+    width: 85vw;
 }
 
-nav ul {
-    flex-wrap: wrap;
-    padding-top: 1.2rem;
-    align-items: center;
-}
-
-nav ul li {
+.header {
     display: flex;
-    width: 50vw;
-    justify-content: space-around;
-    padding-top: 1rem;
+    flex-wrap: wrap;
+    list-style-type: none;
+    align-items: center;
+    margin-top:	1.3rem;
+    padding: 0px;
 }
 
-#activites:hover, 
-#hebergements:hover {
+.header li {
+    padding: 1em;
+}
+
+#logo {
+    margin-left: 1rem;
+}
+
+#inscrire {
+    padding-right: 1rem;
+}
+
+.combine {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;  
+}
+
+.combine a {
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 16px;
+    width: 100vw;
+}
+
+.combine a:hover {
     border-bottom: 2px solid #0065FC;
 }
 
 #hebergements {
-    margin-left: 2rem;
+    padding-left: 2rem;
 }
 
-#activites, 
-#hebergements {
-    border-bottom: 2px solid #F2F2F2; 
-    padding-bottom: 1rem;
-    width: 40vw;  
+#activites {
+    padding-left: 5rem;
 }
 
 /* zone de recherche */
@@ -45,10 +60,6 @@ nav ul li {
     color: #fff;  
 }
 
-input {
-    width: 13rem;
-}
-
 #boutonsearch {
     border-radius: 12px;
     margin-left: -1rem;
@@ -58,11 +69,42 @@ input {
 }
 
 /* les filtres*/
-
 .menufiltres {
     flex-wrap: wrap;
 }
 
 .monfiltre  { 
-    margin-right: 8px;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+
+/*Aside pour les plus populaires*/
+aside{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+
+/*Section les Hbergements à Marseille*/
+section {
+    padding-bottom: 20px;
+    width: 100vw;
+}
+
+.figuresection {
+    font-size: 0.8rem;
+    width: 20.3rem;
+}
+
+.imgheberg {
+    width: 20.05rem;
+    height: 7rem;
+}
+
+.figcaption{
+    line-height: 0.5rem;
+}
+
+.figcaption p {
+    font-size: 1rem;
 }
