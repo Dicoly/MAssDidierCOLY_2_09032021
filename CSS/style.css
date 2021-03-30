@@ -162,7 +162,7 @@ aside{
     border: none;
 }
 
-aside h1{
+h2{
     margin-left: 1.8rem;
     margin-top: 2rem;
 }
@@ -203,10 +203,6 @@ figcaption {
     margin-right: 2rem;
 }
 
-figcaption h2{
-    font-size: 0.9rem;
-}
-
 figcaption p {
     font-size: 0.8rem;
 }
@@ -225,9 +221,8 @@ figcaption p {
 }
 
 /*Section les Hbergements à Marseille*/
-section h1 {
-    margin-left: 1.8rem;
-    margin-top: 2rem;
+h3 {
+    font-size: 1.1rem;
 }
 
 .figuresection {
@@ -262,5 +257,4 @@ section h1 {
 
 .afficherplus {
     margin-left: 1.8rem;
-    font-size: 1.3rem;
 }

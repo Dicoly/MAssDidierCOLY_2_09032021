@@ -1,7 +1,6 @@
 /*HEADER*/
 body main{
     margin: 1.8rem;
-    align-items: center;
 }
 
 .header {
@@ -30,12 +29,13 @@ body main{
 
 #hebergements {
     padding-left: 2rem;
-    margin-right: 0.8rem;
+    padding-right: 2rem;
 }
 
 #activites {
     padding-left: 2rem;
-    margin-left: 1rem;
+    padding-right: 2rem;
+    margin-right: -0.6rem;
 }
 
 /* la zone de recherche */
@@ -116,7 +116,7 @@ section {
     margin-left: 1.8rem;
 }
 
-section h1 {
+section h2 {
     width: 100vw;
     margin-bottom: -5px;
 }
