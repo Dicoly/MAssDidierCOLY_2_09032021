@@ -1,110 +1,91 @@
 /*HEADER*/
-body main {
-    margin: 0rem 2rem;
-    align-items: center;
-    width: 85vw;
-}
-
-.header {
-    display: flex;
+nav ul {
     flex-wrap: wrap;
-    list-style-type: none;
     align-items: center;
-    margin-top:	1.3rem;
-    padding: 0px;
+    
 }
 
-.header li {
-    padding: 1em;
-}
-
-#logo {
-    margin-left: 1rem;
+nav ul li {
+    width: 50vw;
+    padding-bottom: 20px;
 }
 
 #inscrire {
-    padding-right: 1rem;
+    display: flex;
+    justify-content: flex-end;
 }
 
-.combine {
+#logo a {
+    padding-left: 16px;
+}
+
+#inscrire a {
+    padding-right: 16px;
+}
+
+#hebergements,
+#activites {
     display: flex;
     justify-content: space-around;
-    width: 100vw;  
-}
-
-.combine a {
     border-bottom: 2px solid #F2F2F2;
     padding-bottom: 16px;
-    width: 100vw;
+    width: 50vw;
 }
 
-.combine a:hover {
+#hebergements a{
+    padding-right: 20px;
+}
+
+#hebergements:hover,
+#activites:hover {
     border-bottom: 2px solid #0065FC;
 }
 
-#hebergements {
-    padding-left: 2rem;
-}
-
-#activites {
-    padding-left: 5rem;
+/* la paritie main */
+body main {
+    padding: 0px 16px;
 }
 
 /* zone de recherche */
+h1 {
+    margin-top: 30px;
+}
+
 #bsearch {
-    visibility: hidden;
+    display: none;
+}
+
+form {
+    flex-wrap: wrap;
 }
 
 #imgsearch {
-    width: 2rem;
-    color: #fff;  
+    width: 2.5rem;
+    color: #fff;
 }
 
+
 #boutonsearch {
+    display: flex;
+    flex-wrap: wrap;
     border-radius: 12px;
-    margin-left: -1rem;
     background:#0065FC;
     border: none;
     outline: none;
+    text-align: center;
+    align-items: center;
 }
 
 /* les filtres*/
+.titrefiltre {
+    margin-top: 30px;
+}
+
 .menufiltres {
     flex-wrap: wrap;
 }
 
 .monfiltre  { 
     margin-right: 5px;
-    font-size: 1rem;
-}
-
-/*Aside pour les plus populaires*/
-aside{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100vw;
-}
-
-/*Section les Hbergements à Marseille*/
-section {
-    padding-bottom: 20px;
-    width: 100vw;
-}
-
-.figuresection {
-    font-size: 0.8rem;
-    width: 20.3rem;
-}
-
-.imgheberg {
-    width: 20.05rem;
-    height: 7rem;
-}
-
-.figcaption{
-    line-height: 0.5rem;
-}
-
-.figcaption p {
-    font-size: 1rem;
+    margin-bottom: 15px;
 }

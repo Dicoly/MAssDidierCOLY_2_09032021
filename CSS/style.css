@@ -9,19 +9,13 @@ body {
     margin: 0px;
     padding: 0px;
     font-family: "Ralewayregular";
+    box-sizing: border-box;
 }
 
-/* header */
-.header {
+nav ul {
     display: flex;
-    flex-wrap: wrap;
     list-style-type: none;
-    align-items: center;
     padding: 0px;
-}
-
-.combine a:active {
-    color:  #0065FC;
 }
 
 a {
@@ -29,17 +23,13 @@ a {
     text-decoration: none;	
 }
 
-#imglogo {
-    width: 5em;
-}
-
 #inscrire a {
     color: #0065FC;
 }
 
-
-#logo {
-    flex-grow: 1;
+#activites a:active, 
+#hebergements a:active {
+    color:  #0065FC;
 }
 
 /* la zone de recherche*/
@@ -48,51 +38,53 @@ h1 {
 }
 
 .plieu {
-    font-size: 1.1rem;
+    font-size: 18px;
+    padding-bottom: 15px;
 }
 
-form ul {
+#recherche {
     display: flex;
 }
 
-form ul li {
+form {
     display: flex;
-    margin-left: -1.2rem;
+    margin-bottom: 30px;
+}
+
+label {
+    display: flex;
+    border-radius: 12px 0px 0px 12px;
+    border: none;
+    outline: none;
+    background: #F2F2F2;
+    text-align: center;
+    align-items: center;
 }
 
 input {
     font-size: 1.2rem;
-    height: 2.4rem;
+    height: 2.6rem;
     outline: none;
     border: none;
     border: 1px solid #F2F2F2;
-    margin-left: 1.2rem;
-    width: 16rem;
+    width: 14rem;
 }
 
 input[type="text"] {
     outline: none;
-    padding-left: 0.8rem;
+    padding-left: 12px;
     color: #000;
     font-weight: bold;
 }
 
 #imgiconmap {
-    width: 2rem;
-    color: #000;  
+    width: 3.1rem;
+    color: #000;
 }
 
-#boutonmap {
-    border-radius: 12px 0px 0px 12px;
-    border: none;
-    outline: none;
-    background:#F2F2F2;
-    margin-left: -1.3rem;
-}
-
-/* les filtres */
-.titrefiltre {
-    font-size: 1.1rem;
+/* les filtres*/
+#filtres p {
+    font-size: 1.2rem;
     font-weight: bold;
 }
 
@@ -105,21 +97,17 @@ input[type="text"] {
     align-items: center;
     border: 2px solid #F2F2F2;
     border-radius: 2.4rem;
-    padding-right: 1.2rem;
     height: 2.6rem;
     font-weight: bold;
-    margin-bottom: 15px; 
+    padding-right: 13px;
 }
 
 .monicone .fas {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     color: #0065FC;
     background: #DEEBFF;
-    width: 2.9rem;
+    width: 2.8rem;
     text-align: center;
-    line-height: 2.9rem;
+    line-height: 2.8rem;
     border-radius: 50%;
     margin-right: 13px;
 }
@@ -128,133 +116,24 @@ input[type="text"] {
     background: #0065FC;
 }
 
-.info {
-    font-size: 1.1rem;
-    margin-left: 1rem;
-    padding-left: 10px;
-    margin-bottom: 3rem;
+.info  {
+    display: flex;
+    margin-top: 15px;
 }
 
-.infopar {
-    margin-left: 10px;
+.pinfo {
+    padding-left: 15px;
+    margin: 0px;
+    font-size: 1.2rem;
 }
 
 #iconinfo {
     display: flex;
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 23px;
     align-items: center;
     justify-content: center;
-    position: absolute;
     color: #0065FC;
-    margin-left: -1.9rem;
     border-radius: 50%;
     border: 3px solid #F2F2F2;
-    background-color: #fff;
-    margin-top: -4px;
-}
-
-/*Aside pour les plus populaires*/
-aside{
-    background-color: #F2F2F2;
-    padding-bottom: 20px;
-    width: 100vw;
-    border: none;
-}
-
-h2{
-    margin-left: 1.8rem;
-    margin-top: 2rem;
-}
-
-#chart {
-    width: 3rem;
-    height: 1.5rem;
-}
-
-.iconchart {
-    margin-left: 5rem;
-    border: none;
-}
-
-.figureaside {
-    display: flex;
-    border-radius: 25px;
-    font-size: 9px;
-    padding: 3px;
-    background-color: #fff;
-    margin-left: 1.5rem;
-    margin-right: 0.5rem; 
-    width: 20.5rem;
-}
-
-.imgaside {
-    display: flex;
-    width: 8rem;
-    height: 8rem;
-    border-radius: 25px 0px 0px 25px;
-    padding: 2px;
-    outline: none;
-    object-fit: cover;
-}
-
-figcaption {
-    margin-left: 1rem;
-    margin-right: 2rem;
-}
-
-figcaption p {
-    font-size: 0.8rem;
-}
-
-.fastar {
-    padding-top: 30px;
-}
-
-.fastar a{
-    padding-left: 1px;
-    color: #0065FC;
-}
-
-.fastar .grise{
-    color: #a19e9e;
-}
-
-/*Section les Hbergements à Marseille*/
-h3 {
-    font-size: 1.1rem;
-}
-
-.figuresection {
-    border-radius: 25px 25px;
-    font-size: 0.8rem;
-    padding: 3px 3px;
-    background-color: #fff;
-    margin-left: 1.5rem;
-}
-
-.imgheberg {
-    height: 6rem;
-    padding: 2px 2px;
-    margin-bottom: -5px;
-    border-radius: 25px 25px 0px 0px;
-    object-fit: cover;
-    outline: none;
-}
-
-.fasstar {
-    padding-bottom: 10px;
-}
-
-.fasstar a{
-    padding-left: 1px;
-    color: #0065FC;
-}
-
-.fasstar .grise{
-    color: #a19e9e;
-}
-
-.afficherplus {
-    margin-left: 1.8rem;
 }

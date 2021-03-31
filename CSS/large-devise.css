@@ -1,62 +1,51 @@
 /*HEADER*/
-body main{
-    margin: 1.8rem;
+
+nav ul {
+    margin:0rem 2rem;
 }
 
-.header {
-    margin:0px;
-}
-
-.header li {
+nav ul li {
     padding: 1.5rem;
+    display: flex;
+    align-items: center;
 }
 
 #logo {
     flex-grow: 1;
+    margin-left: -1.5rem;
 }
 
 #inscrire {
     order: 1;
 }
 
-.combine a {
-    padding-top: 2rem;
+#hebergements,
+#activites {
+    border-top: 2px solid #F2F2F2;
 }
 
-.combine a:hover {
+#hebergements:hover,
+#activites:hover {
     border-top: 2px solid #0065FC;
 }
 
-#hebergements {
-    padding-left: 2rem;
-    padding-right: 2rem;
+/* la paritie main */
+body main { 
+    padding: 0rem;
+    margin: 0rem 2rem ;
 }
 
-#activites {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-right: -0.6rem;
-}
-
-/* la zone de recherche */
+/* zone de recherche */
 h1 {
-    margin-top: -2rem;
+    margin-top: 0px;
 }
 
 #boutonsearch {
-    visibility: hidden;
-}
-
-#boutonmap {
-    border-radius: 12px 0px 0px 12px;
-    border: none;
-    outline: none;
-    background:#F2F2F2;
+    display: none;
 }
 
 #bsearch {
     border-radius: 0px 12px 12px 0px;
-    margin-left: -2rem;
     width: 100px;
     background:#0065FC;
     border: none;
@@ -64,87 +53,16 @@ h1 {
     color: #fff;
 }
 
-#bsearch a {
-    color: #fff;
-}
-
 /* les filtres*/
-.titrefiltre {
+#filtres {
     display: flex;
-    margin-top: 11px;
+    align-items: center;   
 }
 
-.filtres {
-    display: flex;
+.titrefiltre {
+    margin-right: 12px;
 }
 
 .monfiltre  { 
-    margin-right: 15px;
-    font-size: 1.1rem;  
-}
-
-.menufiltres {
-    margin-left: 15px;
-}
-
-/*Combine aside les plus populaires  et section hebergements à Marseille */
-.asidesection {
-    display: flex;
-}
-
-/*Aside pour les plus populaires*/
-aside{
-    width: 30vw;
-    border-radius: 1rem;
-    margin-left: 1.8rem;
-    order: 1;
-}
-
-.figureaside {
-    margin-bottom: 10px;
-}
-
-/*Section les Hbergements à Marseille*/
-section {
-    display: flex;
-    flex-wrap: wrap;
-    padding-bottom: 10px;
-    width: 62vw;
-    padding-right: 2px;
-    background: #F2F2F2;
-    border-radius: 1rem;
-    margin-left: 1.8rem;
-}
-
-section h2 {
-    width: 100vw;
-    margin-bottom: -5px;
-}
-
-.figuresection {
-    font-size: 9px;
-    margin-right: 0px;
-    width: 14.2rem;
-}
-
-.imgheberg {
-    width: 14rem;
-    height: 6rem;
-}
-
-.figcaption{
-    line-height: 0.5rem;
-    margin-bottom: -20px;
-}
-
-.figcaption p {
-    font-size: 0.8rem;
-}
-
-.afficherplus {
-    width: 100vw;
-}
-
-.asidesection {
-    display: flex;
+    margin-right: 12px;
 }
