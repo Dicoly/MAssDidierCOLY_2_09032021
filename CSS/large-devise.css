@@ -236,3 +236,91 @@ section .fastar {
     padding-top: 10px;
     margin-bottom: 0px;   
 }
+
+/* Articles Activités à Marseille */
+.activitesmarseille {
+    margin: 0rem 2rem;
+    padding-bottom: 50px; 
+}
+
+article {
+    display: grid;
+    grid-template-columns: 309px 309px 309px auto;
+    width: 93.6vw;
+    justify-content: space-between;
+}
+
+article figure {
+    margin: 0px;
+    border-radius: 20px 20px;
+    height: 29rem;
+    width: 17rem;
+    background-color: #fff;
+}
+
+.imgactivites {
+    width: 17rem;
+    height: 25rem;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    outline: none;
+}
+
+.activitesmarseille h2 {
+    width: 93.7vw;
+    padding-top: 30px;
+    margin-top: 0px;
+}
+
+article h3 {
+    font-size: 1.1rem;
+}
+
+article figcaption {
+    padding-left: 20px;
+}
+
+.portetiles .figure1 .imgactivites {
+    height: 11.5rem;
+}
+
+.portetiles .figure2 .imgactivites {
+    height: 7rem;
+}
+
+.portetiles .figure1 {
+    height: 15.5rem;
+}
+
+.portetiles .figure2 {
+    height: 11rem;
+}
+
+article .portetiles {
+    display: grid;
+}
+
+.portetiles .figure2 {
+    align-self: end;
+}
+
+article .notreparc {
+    display: grid;
+}
+
+.notreparc .figure3 .imgactivites {
+    height: 9rem;
+}
+
+.notreparc .figure3 {
+    height: 13rem;
+}
+
+.notreparc .figure4 .imgactivites {
+    height: 9.5rem;
+}
+
+.notreparc .figure4 {
+    align-self: end;
+    height: 13.5rem;
+}
