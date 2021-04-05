@@ -56,6 +56,7 @@ h1 {
 }
 
 form {
+    display: flex;
     flex-wrap: wrap;
 }
 
@@ -63,7 +64,6 @@ form {
     width: 2.5rem;
     color: #fff;
 }
-
 
 #boutonsearch {
     display: flex;
@@ -88,4 +88,162 @@ form {
 .monfiltre  { 
     margin-right: 5px;
     margin-bottom: 15px;
+}
+
+.info  {
+    display: flex;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.pinfo {
+    padding-left: 15px;
+    margin: 0px;
+    font-size: 1.2rem;
+}
+
+#iconinfo {
+    display: flex;
+    width: 23px;
+    height: 23px;
+    align-items: center;
+    justify-content: center;
+    color: #0065FC;
+    border-radius: 50%;
+    border: 3px solid #F2F2F2;
+}
+
+/********************/
+.combineasidesection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/*Aside pour les plus populaires*/
+aside {
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    padding-bottom: 20px;
+}
+
+aside .titreaside {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px
+}
+
+#iconchart {
+    font-size: 25px;
+}
+
+.imgaside {
+    width: 35vw;
+    height: 8rem;
+    border-radius: 20px 0px 0px 20px;
+    outline: none;
+    object-fit: cover;
+}
+
+aside figure {
+    display: flex;
+    margin: 0px;
+    border-radius: 20px;
+    padding: 4px 4px;
+    background-color: #fff;
+    margin-bottom: 15px;
+    height: 8rem;
+    width: 90vw;
+}
+
+aside figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 1rem;
+    margin-right: 2rem;
+    width: 42vw; 
+}
+
+aside .fastar {
+    flex-grow: 1;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.fastar a{
+    padding-left: 0.5px;
+    color: #0065FC;
+    font-size: 10px;
+}
+
+.fastar .grise{
+    color: #a19e9e;
+}
+
+aside figcaption h3 {
+    margin: 0px;
+    font-size: 1.1rem;
+}
+
+aside figcaption p {
+    font-size: 1rem;
+}
+
+/*Section les Hbergements à Marseille*/
+section {
+    padding: 0px 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+.imgheberg {
+    height: 6rem;
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover;
+    outline: none;
+}
+
+section h2 {
+    flex-grow: 1;
+    padding-top: 15px;
+}
+
+section figure {
+    border-radius: 20px 20px;
+    padding: 4px 4px;
+    background-color: #fff;
+    margin: 0px;
+    margin-bottom: 15px;
+    width: 90vw;
+}
+
+section figcaption{
+    margin-left: 0.5rem;
+}
+
+section figcaption h3 {
+    margin-top: 5px;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+section figcaption p {
+    margin-top:5px;
+    font-size: 1rem;
+    margin: 0px;
+}
+
+section .fastar {
+    padding-bottom: 5px;
+}
+
+.afficherplus {
+    margin: 0px;
+    font-size: 1.1rem;
+    padding-bottom: 30px;
 }

@@ -42,12 +42,7 @@ h1 {
     padding-bottom: 15px;
 }
 
-#recherche {
-    display: flex;
-}
-
 form {
-    display: flex;
     margin-bottom: 30px;
 }
 
@@ -114,26 +109,4 @@ input[type="text"] {
 
 .monfiltre:hover {
     background: #0065FC;
-}
-
-.info  {
-    display: flex;
-    margin-top: 15px;
-}
-
-.pinfo {
-    padding-left: 15px;
-    margin: 0px;
-    font-size: 1.2rem;
-}
-
-#iconinfo {
-    display: flex;
-    width: 23px;
-    height: 23px;
-    align-items: center;
-    justify-content: center;
-    color: #0065FC;
-    border-radius: 50%;
-    border: 3px solid #F2F2F2;
 }
