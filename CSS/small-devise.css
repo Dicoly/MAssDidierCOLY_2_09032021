@@ -284,3 +284,16 @@ article figcaption {
 article h3 {
     font-size: 1.1rem;
 }
+
+/* Footer (pied de page)*/
+footer {
+    background-color: #F2F2F2;
+}
+
+footer .pieddepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px 0px 25px 25px;
+    width: 70vw;
+}
