@@ -2,7 +2,7 @@
 nav ul {
     flex-wrap: wrap;
     align-items: center;
-    
+    width: 100vw;
 }
 
 nav ul li {
@@ -20,7 +20,7 @@ nav ul li {
 }
 
 #inscrire a {
-    padding-right: 16px;
+    padding-right: 30px;
 }
 
 #hebergements,
@@ -44,6 +44,7 @@ nav ul li {
 /* la paritie main */
 body main {
     padding: 0px 16px;
+    width: 90vw;
 }
 
 /* zone de recherche */
@@ -86,7 +87,7 @@ form {
 }
 
 .monfiltre  { 
-    margin-right: 5px;
+    margin-right: 15px;
     margin-bottom: 15px;
 }
 
@@ -99,7 +100,7 @@ form {
 .pinfo {
     padding-left: 15px;
     margin: 0px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 
 #iconinfo {
@@ -126,6 +127,7 @@ aside {
     flex-direction: column;
     background-color: #F2F2F2;
     padding-bottom: 20px;
+    width: 90vw;
 }
 
 aside .titreaside {
@@ -155,7 +157,6 @@ aside figure {
     background-color: #fff;
     margin-bottom: 15px;
     height: 8rem;
-    width: 90vw;
 }
 
 aside figcaption {
@@ -198,6 +199,7 @@ section {
     padding: 0px 16px;
     display: flex;
     flex-direction: column;
+    width: 90vw;
 }
 
 .imgheberg {
@@ -219,7 +221,6 @@ section figure {
     background-color: #fff;
     margin: 0px;
     margin-bottom: 15px;
-    width: 90vw;
 }
 
 section figcaption{
@@ -253,11 +254,13 @@ section .fastar {
     display: flex;
     padding: 0px 16px;
     flex-direction: column;
+    width: 90vw;
 }
 
 article {
     padding-bottom: 30px;
     padding-top: 8px;
+    
 }  
 
 article figure {
@@ -265,7 +268,6 @@ article figure {
     background-color: #fff;
     margin: 0px;
     margin-bottom: 20px;
-    width: 90vw; 
 }
 
 .imgactivites {

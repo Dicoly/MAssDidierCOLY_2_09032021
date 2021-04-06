@@ -62,7 +62,7 @@ input {
     outline: none;
     border: none;
     border: 1px solid #F2F2F2;
-    width: 14rem;
+    width: 13.5rem;
 }
 
 input[type="text"] {
@@ -79,7 +79,7 @@ input[type="text"] {
 
 /* les filtres*/
 #filtres p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold;
 }
 
