@@ -167,13 +167,13 @@ input {
     align-items: flex-end;
 }
 
-.fastar i{
+.fastar i {
     padding-left: 0.5px;
     color: #0065FC;
     font-size: 10px;
 }
 
-.fastar #grise{
+.fastar .grey {
     color: #a19e9e;
 }
 
