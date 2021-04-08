@@ -19,12 +19,12 @@ nav ul li {
     order: 1;
 }
 
-#hebergements,
+#heberge,
 #activites {
     border-top: 2px solid #F2F2F2;
 }
 
-#hebergements:hover,
+#heberge:hover,
 #activites:hover {
     border-top: 2px solid #0065FC;
 }
@@ -48,6 +48,10 @@ form {
     display: flex;
 }
 
+input {
+    width: 14rem;
+}
+
 #bsearch {
     border-radius: 0px 12px 12px 0px;
     width: 100px;
@@ -60,7 +64,8 @@ form {
 /* les filtres*/
 #filtres {
     display: flex;
-    align-items: center;   
+    align-items: center;
+    flex-wrap: wrap;  
 }
 
 .titrefiltre {
@@ -94,32 +99,29 @@ form {
     border: 3px solid #F2F2F2;
 }
 
-/*******************/
-.combineasidesection {
+/********************/
+.combinearticle {
     display: flex;
-    margin: 0rem 2rem;
     justify-content: space-between;
 }
 
 /*Aside pour les plus populaires*/
-aside {
+#populaires {
     background-color: #F2F2F2;
-    display: flex;
-    flex-direction: column;
-    border-radius: 20px 20px;
+    border-radius: 20px;
     order: 1;
-    padding-bottom: 16px;
+    padding: 0.5rem 2rem; 
+    width: 25vw;
 }
 
-aside .titreaside {
+figure {
+    margin: 0rem;
+}
+
+#populaires .titreaside {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 40px 0px 40px;
-}
-
-aside h2 {
-    margin-bottom: 5px;
 }
 
 #iconchart {
@@ -132,60 +134,66 @@ aside h2 {
     border-radius: 20px 0px 0px 20px;
     outline: none;
     object-fit: cover;
+    margin-right: 0.5rem;
 }
 
-aside figure{
+#populaires figure{
     display: flex;
+    justify-content: flex-start;
     border-radius: 20px;
     padding: 4px 4px;
     background-color: #fff;
-    width: 25vw;
+    width: 24.5vw;
     height: 8rem;
+    min-width: 15vw;
+    margin-bottom: 25px;
 }
 
-aside figcaption {
+#populaires figcaption {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-left: 1rem;
-    margin-right: 2rem;
+    margin: 0rem  2rem 0rem 0.5rem;
+    width: 100vw;
 }
 
-aside .fastar {
+#populaires .fastar {
     flex-grow: 1;
     margin-bottom: 10px;
     display: flex;
     align-items: flex-end;
 }
 
-.fastar a{
+.fastar i{
     padding-left: 0.5px;
     color: #0065FC;
     font-size: 10px;
 }
 
-.fastar .grise{
+.fastar #grise{
     color: #a19e9e;
 }
 
-aside figcaption h3 {
+#populaires figcaption h3 {
     margin: 0px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 
-aside figcaption p {
-    font-size: 1rem;
+#populaires figcaption p {
+    font-size: 0.8rem;
     margin-top: 5px;
 }
 
 /*Section les Hbergements à Marseille*/
-section {
+#hebergements {
     background-color: #F2F2F2;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
-    width: 59.4vw;
+    padding: 0rem 2rem;
+    width: 50%;
     border-radius: 20px;
-    padding-bottom: 40px;
+    margin-right: 2rem;
 }
 
 .imgheberg {
@@ -193,136 +201,109 @@ section {
     object-fit: cover;
     outline: none;
     height: 6rem;
-    width: 15vw;
+    width: 100%;
 }
 
-section figure {
+#hebergements figure {
     border-radius: 20px 20px;
     padding: 4px 4px;
     background-color: #fff;
-    margin-right: 0px;
+    margin-bottom: 25px;
+    width: 30%;
 }
 
-section h2 {
-    padding: 20px 0px 0px 40px;
-    flex-grow: 1;
-    width: 50vw;
-    margin-bottom: 5px;
+#hebergements h2 {
+    width: 100vw;
+    margin-bottom: 0.2rem;
+    margin-top: 1.8rem;
 }
 
-section figcaption{
+#hebergements figcaption{
     margin-left: 0.5rem;
 }
 
-section figcaption h3 {
+#hebergements figcaption h3 {
     margin-top: 5px;
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-bottom: 5px;
 }
 
-section figcaption p {
-    margin-top:5px;
-    font-size: 1rem;
-}
-
-section .fastar {
-    margin-top: -10px;
+#hebergements figcaption p {
+    font-size: 0.8rem;
 }
 
 .afficherplus {
     width: 50vw;
     font-size: 1.1rem;
-    padding-left: 40px;
     padding-top: 10px;
     margin-bottom: 0px;   
 }
-
-/* Articles Activités à Marseille */
+/**************************************/
 .activitesmarseille {
-    margin: 0rem 2rem;
-    padding-bottom: 50px; 
-}
-
-article {
-    display: grid;
-    grid-template-columns: 309px 309px 309px auto;
-    width: 93.6vw;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    flex-wrap: wrap;
+    height: 35rem;
 }
 
-article figure {
-    margin: 0px;
-    border-radius: 20px 20px;
-    height: 29rem;
-    width: 17rem;
-    background-color: #fff;
+#activite {
+    padding-top: 10px;
 }
 
 .imgactivites {
-    width: 17rem;
-    height: 25rem;
+    width: 100%;
+    height: 40vh;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    outline: none;
 }
 
-.activitesmarseille h2 {
-    width: 93.7vw;
-    padding-top: 30px;
-    margin-top: 0px;
+#activite figure {
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 3px 3px 5px rgb(233, 230, 230);
+    width: 23.5%;
+    margin: 0rem 0rem 1.5rem 0.5rem;
 }
 
-article h3 {
-    font-size: 1.1rem;
+#activite .figure1 {
+    height: 70vh;
 }
 
-article figcaption {
+#activite .figure2 {
+    height: 35vh;
+}
+
+#activite .figure3 {
+    height: 20vh;
+}
+
+#activite .figure4 {
+    height: 27.5vh;
+}
+
+#activite .figure1 .imgactivites {
+    height: 50vh;
+}
+
+#activite .figure2 .imgactivites {
+    height: 26vh;
+}
+
+#activite .figure3 .imgactivites {
+    height: 11vh;
+}
+
+#activite .figure4 .imgactivites {
+    height: 18.5vh;
+}
+
+#activite figcaption {
     padding-left: 20px;
 }
 
-.portetiles .figure1 .imgactivites {
-    height: 11.5rem;
-}
-
-.portetiles .figure2 .imgactivites {
-    height: 7rem;
-}
-
-.portetiles .figure1 {
-    height: 15.5rem;
-}
-
-.portetiles .figure2 {
-    height: 11rem;
-}
-
-article .portetiles {
-    display: grid;
-}
-
-.portetiles .figure2 {
-    align-self: end;
-}
-
-article .notreparc {
-    display: grid;
-}
-
-.notreparc .figure3 .imgactivites {
-    height: 9rem;
-}
-
-.notreparc .figure3 {
-    height: 13rem;
-}
-
-.notreparc .figure4 .imgactivites {
-    height: 9.5rem;
-}
-
-.notreparc .figure4 {
-    align-self: end;
-    height: 13.5rem;
+#activite h2 {
+    margin-left: 0.5rem;
 }
 
 /* Footer (pied de page)*/
@@ -332,8 +313,8 @@ footer {
 
 footer .pieddepage {
     display: flex;
-    padding-left: 2rem;
-    justify-content: space-between;
+    padding-left: 3rem;
+    justify-content: space-around;
     padding: 25px 0px 25px 25px;
     width: 70vw;
 }

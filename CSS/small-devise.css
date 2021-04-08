@@ -23,7 +23,7 @@ nav ul li {
     padding-right: 30px;
 }
 
-#hebergements,
+#heberge,
 #activites {
     display: flex;
     justify-content: space-around;
@@ -32,19 +32,18 @@ nav ul li {
     width: 50vw;
 }
 
-#hebergements a{
+#heberge a{
     padding-right: 20px;
 }
 
-#hebergements:hover,
+#heberge:hover,
 #activites:hover {
     border-bottom: 2px solid #0065FC;
 }
 
 /* la paritie main */
-body main {
+.rechercher {
     padding: 0px 16px;
-    width: 90vw;
 }
 
 /* zone de recherche */
@@ -58,26 +57,30 @@ h1 {
 
 form {
     display: flex;
-    flex-wrap: wrap;
 }
 
 #imgsearch {
-    width: 2.5rem;
+    padding: 10px;
     color: #fff;
+    display: flex;
+}
+
+input {
+    flex-grow: 1;
 }
 
 #boutonsearch {
-    display: flex;
-    flex-wrap: wrap;
     border-radius: 12px;
     background:#0065FC;
     border: none;
     outline: none;
-    text-align: center;
-    align-items: center;
 }
 
 /* les filtres*/
+#filtres {
+    padding: 0px 16px;
+}
+
 .titrefiltre {
     margin-top: 30px;
 }
@@ -94,7 +97,7 @@ form {
 .info  {
     display: flex;
     margin-top: 15px;
-    padding-bottom: 30px;
+    padding: 0px 16px 30px 16px;
 }
 
 .pinfo {
@@ -115,22 +118,22 @@ form {
 }
 
 /********************/
-.combineasidesection {
+.combinearticle {
     display: flex;
     flex-wrap: wrap;
 }
 
 /*Aside pour les plus populaires*/
-aside {
+#populaires {
     padding: 0px 16px;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
     padding-bottom: 20px;
-    width: 90vw;
+    width: 100vw;
 }
 
-aside .titreaside {
+#populaires .titreaside {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -149,7 +152,7 @@ aside .titreaside {
     object-fit: cover;
 }
 
-aside figure {
+#populaires figure {
     display: flex;
     margin: 0px;
     border-radius: 20px;
@@ -159,47 +162,46 @@ aside figure {
     height: 8rem;
 }
 
-aside figcaption {
+#populaires figcaption {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 1rem;
     margin-right: 2rem;
-    width: 42vw; 
 }
 
-aside .fastar {
+#populaires .fastar {
     flex-grow: 1;
     margin-bottom: 10px;
     display: flex;
     align-items: flex-end;
 }
 
-.fastar a{
+.fastar i{
     padding-left: 0.5px;
     color: #0065FC;
     font-size: 10px;
 }
 
-.fastar .grise{
+.fastar #grise{
     color: #a19e9e;
 }
 
-aside figcaption h3 {
+#populaires figcaption h3 {
     margin: 0px;
     font-size: 1.1rem;
 }
 
-aside figcaption p {
+#populaires figcaption p {
     font-size: 1rem;
 }
 
 /*Section les Hbergements à Marseille*/
-section {
+#hebergements {
     padding: 0px 16px;
     display: flex;
     flex-direction: column;
-    width: 90vw;
+    width: 100vw;
 }
 
 .imgheberg {
@@ -210,36 +212,37 @@ section {
     outline: none;
 }
 
-section h2 {
+#hebergements h2 {
     flex-grow: 1;
     padding-top: 15px;
 }
 
-section figure {
+#hebergements figure {
     border-radius: 20px 20px;
     padding: 4px 4px;
     background-color: #fff;
     margin: 0px;
     margin-bottom: 15px;
+    box-shadow: 1px 1px 1px 1px rgb(233, 230, 230);
 }
 
-section figcaption{
+#hebergements figcaption{
     margin-left: 0.5rem;
 }
 
-section figcaption h3 {
+#hebergements figcaption h3 {
     margin-top: 5px;
     font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
-section figcaption p {
+#hebergements figcaption p {
     margin-top:5px;
     font-size: 1rem;
     margin: 0px;
 }
 
-section .fastar {
+#hebergements .fastar {
     padding-bottom: 5px;
 }
 
@@ -254,20 +257,20 @@ section .fastar {
     display: flex;
     padding: 0px 16px;
     flex-direction: column;
-    width: 90vw;
 }
 
-article {
+#activite {
     padding-bottom: 30px;
     padding-top: 8px;
     
 }  
 
-article figure {
+#activite figure {
     border-radius: 20px 20px;
     background-color: #fff;
     margin: 0px;
     margin-bottom: 20px;
+    box-shadow: 1px 1px 1px 1px rgb(233, 230, 230);
 }
 
 .imgactivites {
@@ -278,12 +281,12 @@ article figure {
     outline: none;
 }
 
-article figcaption {
+#activite figcaption {
     padding-left: 15px;
     padding-bottom: 3px;
 }
 
-article h3 {
+#activite h3 {
     font-size: 1.1rem;
 }
 
