@@ -117,57 +117,47 @@ input {
     border: 3px solid #F2F2F2;
 }
 
-/********************/
-.combinearticle {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-/*Aside pour les plus populaires*/
+/*la partie les plus populaires*/
 #populaires {
-    padding: 0px 16px;
-    display: flex;
-    flex-direction: column;
+    padding: 0px 16px 20px 16px;
     background-color: #F2F2F2;
-    padding-bottom: 20px;
-    width: 100vw;
 }
 
 #populaires .titreaside {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 15px
 }
 
-#iconchart {
-    font-size: 25px;
+#populaires figure {  
+    display: flex;
+    justify-content: flex-start;
+    border-radius: 20px;
+    padding: 4px 4px 0px 4px;
+    background-color: #fff;
+    margin: 0rem 0rem 1.5rem 0rem;
+    height: 8.3rem; 
 }
 
-.imgaside {
+#populaires .imgaside {
     width: 35vw;
     height: 8rem;
     border-radius: 20px 0px 0px 20px;
-    outline: none;
     object-fit: cover;
+    margin-right: 0.5rem;
 }
 
-#populaires figure {
-    display: flex;
-    margin: 0px;
-    border-radius: 20px;
-    padding: 4px 4px;
-    background-color: #fff;
-    margin-bottom: 15px;
-    height: 8rem;
-}
-
-#populaires figcaption {
+#populaires figcaption{
+    width: 45vw;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     margin-left: 1rem;
     margin-right: 2rem;
+}
+
+#iconchart {
+    font-size: 1.5rem;
 }
 
 #populaires .fastar {
@@ -188,42 +178,39 @@ input {
 }
 
 #populaires figcaption h3 {
-    margin: 0px;
+    margin-top: 0.8rem;
     font-size: 1.1rem;
 }
 
 #populaires figcaption p {
-    font-size: 1rem;
+    font-size: 0.9rem;
+    margin-top: 5px;
 }
 
-/*Section les Hbergements à Marseille*/
+/*Les hebergements à Marseille*/
 #hebergements {
-    padding: 0px 16px;
-    display: flex;
-    flex-direction: column;
-    width: 100vw;
+    padding: 0px 16px 20px 16px;
 }
 
-.imgheberg {
+#hebergements h2 {
+    margin: 0rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#hebergements .imgheberg {
     height: 6rem;
     width: 100%;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    outline: none;
-}
-
-#hebergements h2 {
-    flex-grow: 1;
-    padding-top: 15px;
 }
 
 #hebergements figure {
     border-radius: 20px 20px;
-    padding: 4px 4px;
+    padding: 4px 4px 0px 4px;
     background-color: #fff;
     margin: 0px;
-    margin-bottom: 15px;
-    box-shadow: 1px 1px 1px 1px rgb(233, 230, 230);
+    margin: 0rem 0rem 1.5rem 0rem;
+    box-shadow: 3px 3px 5px rgb(233, 230, 230);
 }
 
 #hebergements figcaption{
@@ -237,40 +224,30 @@ input {
 }
 
 #hebergements figcaption p {
-    margin-top:5px;
-    font-size: 1rem;
-    margin: 0px;
+    font-size: 0.9rem;
 }
 
 #hebergements .fastar {
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .afficherplus {
-    margin: 0px;
+    margin: 0.5rem 0rem 0rem 0rem;
     font-size: 1.1rem;
-    padding-bottom: 30px;
 }
 
 /*Articles Activités à Marseille*/
-.activitesmarseille {
-    display: flex;
-    padding: 0px 16px;
-    flex-direction: column;
-}
-
 #activite {
-    padding-bottom: 30px;
-    padding-top: 8px;
-    
-}  
+    padding: 20px 16px 30px 16px;
+    background-color: aqua;
+}
 
 #activite figure {
     border-radius: 20px 20px;
     background-color: #fff;
     margin: 0px;
-    margin-bottom: 20px;
-    box-shadow: 1px 1px 1px 1px rgb(233, 230, 230);
+    margin: 0rem 0rem 2rem 0rem;
+    box-shadow: 3px 3px 5px rgb(233, 230, 230);
 }
 
 .imgactivites {
@@ -278,12 +255,10 @@ input {
     height: 8.6rem;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
-    outline: none;
 }
 
 #activite figcaption {
-    padding-left: 15px;
-    padding-bottom: 3px;
+    padding: 0rem 0rem 0.1rem 1rem;
 }
 
 #activite h3 {
@@ -299,6 +274,6 @@ footer .pieddepage {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 25px 0px 25px 25px;
+    padding: 25px 0px 25px 30px;
     width: 70vw;
 }

@@ -132,7 +132,6 @@ figure {
     width: 8rem;
     height: 8rem;
     border-radius: 20px 0px 0px 20px;
-    outline: none;
     object-fit: cover;
     margin-right: 0.5rem;
 }
@@ -143,7 +142,7 @@ figure {
     border-radius: 20px;
     padding: 4px 4px;
     background-color: #fff;
-    width: 24.5vw;
+    width: 24vw;
     height: 8rem;
     min-width: 15vw;
     margin-bottom: 25px;
@@ -180,8 +179,9 @@ figure {
 }
 
 #populaires figcaption p {
-    font-size: 0.8rem;
-    margin-top: 5px;
+    font-size: 0.9rem;
+    /*margin-top: 15px;*/
+    flex: auto;
 }
 
 /*Section les Hbergements à Marseille*/
@@ -191,7 +191,7 @@ figure {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0rem 2rem;
-    width: 50%;
+    width: 53%;
     border-radius: 20px;
     margin-right: 2rem;
 }
@@ -209,12 +209,11 @@ figure {
     padding: 4px 4px;
     background-color: #fff;
     margin-bottom: 25px;
-    width: 30%;
+    width: 29%;
 }
 
 #hebergements h2 {
     width: 100vw;
-    margin-bottom: 0.2rem;
     margin-top: 1.8rem;
 }
 
@@ -224,19 +223,18 @@ figure {
 
 #hebergements figcaption h3 {
     margin-top: 5px;
-    font-size: 1rem;
+    font-size: 1.1rem;
     margin-bottom: 5px;
 }
 
 #hebergements figcaption p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 .afficherplus {
     width: 50vw;
     font-size: 1.1rem;
-    padding-top: 10px;
-    margin-bottom: 0px;   
+    margin-bottom: 30px;   
 }
 /**************************************/
 .activitesmarseille {
@@ -264,6 +262,9 @@ figure {
     box-shadow: 3px 3px 5px rgb(233, 230, 230);
     width: 23.5%;
     margin: 0rem 0rem 1.5rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 #activite .figure1 {
@@ -304,6 +305,10 @@ figure {
 
 #activite h2 {
     margin-left: 0.5rem;
+}
+
+#activite h3 {
+    font-size: 1.1rem;
 }
 
 /* Footer (pied de page)*/
