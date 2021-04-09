@@ -85,15 +85,6 @@ input {
     margin-top: 30px;
 }
 
-.menufiltres {
-    flex-wrap: wrap;
-}
-
-.monfiltre  { 
-    margin-right: 15px;
-    margin-bottom: 15px;
-}
-
 .info  {
     display: flex;
     margin-top: 15px;
