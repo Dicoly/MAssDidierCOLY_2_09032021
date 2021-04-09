@@ -116,6 +116,10 @@ figure {
     margin-top: 0px;
 }
 
+#populaires .fastar i {
+    padding-right: 5px;
+}
+
 /*les hebergements à Marseille*/
 #hebergements {
     background-color: #F2F2F2;
@@ -133,11 +137,16 @@ figure {
 
 #hebergements figure {
     width: 30%;
+    min-width: 20vw;
 }
 
 #hebergements h2 {
     width: 45vw;
     margin-top: 1.8rem;
+}
+
+#hebergements figcaption{
+   margin-bottom: 0.8rem;
 }
 
 #hebergements .afficherplus {
