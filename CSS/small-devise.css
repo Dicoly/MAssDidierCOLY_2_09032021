@@ -2,11 +2,11 @@
 nav ul {
     flex-wrap: wrap;
     align-items: center;
-    width: 100vw;
+    width: 100%;
 }
 
 nav ul li {
-    width: 50vw;
+    width: 50%;
     padding-bottom: 20px;
 }
 
@@ -29,7 +29,7 @@ nav ul li {
     justify-content: space-around;
     border-bottom: 2px solid #F2F2F2;
     padding-bottom: 16px;
-    width: 50vw;
+    width: 50%;
 }
 
 #heberge a{
@@ -42,11 +42,15 @@ nav ul li {
 }
 
 /* la paritie main */
-.rechercher {
-    padding: 0px 16px;
+body main {
+    padding: 0px;
+    margin: 0px;
 }
 
 /* zone de recherche */
+.rechercher {
+    padding: 0px 16px;
+}
 h1 {
     margin-top: 30px;
 }
@@ -86,96 +90,25 @@ input {
 }
 
 .info  {
-    display: flex;
-    margin-top: 15px;
     padding: 0px 16px 30px 16px;
-}
-
-.pinfo {
-    padding-left: 15px;
-    margin: 0px;
-    font-size: 1.1rem;
-}
-
-#iconinfo {
-    display: flex;
-    width: 23px;
-    height: 23px;
-    align-items: center;
-    justify-content: center;
-    color: #0065FC;
-    border-radius: 50%;
-    border: 3px solid #F2F2F2;
 }
 
 /*la partie les plus populaires*/
 #populaires {
     padding: 0px 16px 20px 16px;
-    background-color: #F2F2F2;
-}
-
-#populaires .titreaside {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 #populaires figure {  
-    display: flex;
-    justify-content: flex-start;
-    border-radius: 20px;
-    padding: 4px 4px 0px 4px;
-    background-color: #fff;
-    margin: 0rem 0rem 1.5rem 0rem;
     height: 8.3rem; 
 }
 
 #populaires .imgaside {
     width: 35vw;
     height: 8rem;
-    border-radius: 20px 0px 0px 20px;
-    object-fit: cover;
-    margin-right: 0.5rem;
 }
 
 #populaires figcaption{
     width: 45vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    margin-left: 1rem;
-    margin-right: 2rem;
-}
-
-#iconchart {
-    font-size: 1.5rem;
-}
-
-#populaires .fastar {
-    flex-grow: 1;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.fastar i {
-    padding-left: 0.5px;
-    color: #0065FC;
-    font-size: 10px;
-}
-
-.fastar .grey {
-    color: #a19e9e;
-}
-
-#populaires figcaption h3 {
-    margin-top: 0.8rem;
-    font-size: 1.1rem;
-}
-
-#populaires figcaption p {
-    font-size: 0.9rem;
-    margin-top: 5px;
 }
 
 /*Les hebergements à Marseille*/
@@ -190,32 +123,6 @@ input {
 
 #hebergements .imgheberg {
     height: 6rem;
-    width: 100%;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-
-#hebergements figure {
-    border-radius: 20px 20px;
-    padding: 4px 4px 0px 4px;
-    background-color: #fff;
-    margin: 0px;
-    margin: 0rem 0rem 1.5rem 0rem;
-    box-shadow: 3px 3px 5px rgb(233, 230, 230);
-}
-
-#hebergements figcaption{
-    margin-left: 0.5rem;
-}
-
-#hebergements figcaption h3 {
-    margin-top: 5px;
-    font-size: 1.1rem;
-    margin-bottom: 5px;
-}
-
-#hebergements figcaption p {
-    font-size: 0.9rem;
 }
 
 #hebergements .fastar {
@@ -224,47 +131,19 @@ input {
 
 .afficherplus {
     margin: 0.5rem 0rem 0rem 0rem;
-    font-size: 1.1rem;
 }
 
-/*Articles Activités à Marseille*/
+/*Activités à Marseille*/
 #activite {
     padding: 20px 16px 30px 16px;
-    background-color: aqua;
 }
 
-#activite figure {
-    border-radius: 20px 20px;
-    background-color: #fff;
-    margin: 0px;
-    margin: 0rem 0rem 2rem 0rem;
-    box-shadow: 3px 3px 5px rgb(233, 230, 230);
-}
-
-.imgactivites {
-    width: 100%;
+#activite .imgactivites {
     height: 8.6rem;
-    border-radius: 20px 20px 0px 0px;
-    object-fit: cover;
-}
-
-#activite figcaption {
-    padding: 0rem 0rem 0.1rem 1rem;
-}
-
-#activite h3 {
-    font-size: 1.1rem;
 }
 
 /* Footer (pied de page)*/
-footer {
-    background-color: #F2F2F2;
-}
-
 footer .pieddepage {
-    display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 25px 0px 25px 30px;
-    width: 70vw;
+    width: 50%;
 }
