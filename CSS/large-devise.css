@@ -113,7 +113,7 @@ figure {
 
 #populaires figcaption p {
     font-size: 0.8rem;
-    margin-top: 0px;
+    flex: auto;
 }
 
 #populaires .fastar i {
