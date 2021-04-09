@@ -106,6 +106,16 @@ figure {
     width: 100vw;
 }
 
+#populaires figcaption h3 {
+    margin-top: 0.2rem;
+    font-size: 1rem;
+}
+
+#populaires figcaption p {
+    font-size: 0.8rem;
+    margin-top: 0px;
+}
+
 /*les hebergements à Marseille*/
 #hebergements {
     background-color: #F2F2F2;
