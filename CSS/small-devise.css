@@ -2,7 +2,7 @@
 nav ul {
     flex-wrap: wrap;
     align-items: center;
-    width: 99.5%;
+    width: 100%;
 }
 
 nav ul li {
@@ -61,6 +61,7 @@ h1 {
 
 form {
     display: flex;
+    justify-content: center;
 }
 
 #imgsearch {
@@ -78,6 +79,7 @@ input {
     background:#0065FC;
     border: none;
     margin-left: -0.5rem;
+    display: flex;
 }
 
 /* les filtres*/
