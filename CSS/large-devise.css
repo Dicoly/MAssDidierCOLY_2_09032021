@@ -141,7 +141,7 @@ figure {
 
 #hebergements figure {
     width: 30%;
-    min-width: 15vw;
+   /* min-width: 15vw;*/
 }
 
 #hebergements h2 {
@@ -230,4 +230,28 @@ figure {
 /* Footer (pied de page)*/
 footer .pieddepage {
     width: 70vw;
+}
+
+/* Mode tablette*/
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+    #populaires {
+        border-radius: 20px;
+        padding: 0.5rem 1rem; 
+        width: 34%;
+    }
+
+    #hebergements {
+        background-color: #F2F2F2;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding: 0rem 1rem;
+        border-radius: 20px;
+        margin-right: 1rem;
+    }
+
+    #hebergements figure {
+        width: 30%;
+        min-width: 45%;
+    }
 }
