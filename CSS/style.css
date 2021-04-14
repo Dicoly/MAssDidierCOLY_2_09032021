@@ -27,7 +27,7 @@ a {
     color: #0065FC;
 }
 
-#activites a:active, 
+#activite a:active, 
 #heberge a:active {
     color:  #0065FC;
 }
@@ -229,25 +229,25 @@ input[type="text"] {
 }
 
 /*Activités à Marseille*/
-#activite figure {
+#activites figure {
     border-radius: 20px 20px;
     background-color: #fff;
     margin: 0rem 0rem 1.5rem 0rem;
     box-shadow: 3px 3px 5px rgb(233, 230, 230);
 }
 
-#activite .imgactivites {
+#activites .imgactivites {
     width: 100%;
     height: 8.6rem;
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
 }
 
-#activite figcaption {
+#activites figcaption {
     padding: 0rem 0rem 0.1rem 1rem;
 }
 
-#activite h3 {
+#activites h3 {
     font-size: 1.1rem;
 }
 

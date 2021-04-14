@@ -20,12 +20,12 @@ nav ul li {
 }
 
 #heberge,
-#activites {
+#activite {
     border-top: 2px solid transparent;
 }
 
 #heberge:hover,
-#activites:hover {
+#activite:hover {
     border-top: 2px solid #0065FC;
 }
 
@@ -141,7 +141,6 @@ figure {
 
 #hebergements figure {
     width: 30%;
-   /* min-width: 15vw;*/
 }
 
 #hebergements h2 {
@@ -174,55 +173,55 @@ figure {
     height: 35rem;
 }
 
-#activite {
+#activites {
     padding-top: 10px;
 }
 
-#activite .imgactivites {
+#activites .imgactivites {
     height: 80%;
 }
 
-#activite figure {
+#activites figure {
     width: 23%;
 }
 
-#activite .figure1 {
+#activites .figure1 {
     height: 100%;
 }
 
-#activite .figure2 {
+#activites .figure2 {
     height: 60%;
 }
 
-#activite .figure3 {
+#activites .figure3 {
     height: 30%;
 }
 
-#activite .figure4 {
+#activites .figure4 {
     height: 45%;
 }
 
-#activite .figure1 .imgactivites {
+#activites .figure1 .imgactivites {
     height: 90%;
 }
 
-#activite .figure2 .imgactivites {
+#activites .figure2 .imgactivites {
     height: 85%;
 }
 
-#activite .figure3 .imgactivites {
+#activites .figure3 .imgactivites {
     height: 67%;
 }
 
-#activite .figure4 .imgactivites {
+#activites .figure4 .imgactivites {
     height: 80%;
 }
 
-#activite h2 {
+#activites h2 {
     margin-left: 0.5rem;
 }
 
-#activite h3 {
+#activites h3 {
     font-size: 1.1rem;
     margin-top: 10px;
 }
@@ -235,23 +234,16 @@ footer .pieddepage {
 /* Mode tablette*/
 @media only screen and (min-width: 768px) and (max-width: 990px) {
     #populaires {
-        border-radius: 20px;
         padding: 0.5rem 1rem; 
         width: 34%;
     }
 
     #hebergements {
-        background-color: #F2F2F2;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
         padding: 0rem 1rem;
-        border-radius: 20px;
         margin-right: 1rem;
     }
 
     #hebergements figure {
-        width: 30%;
         min-width: 45%;
     }
 }

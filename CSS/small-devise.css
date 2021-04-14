@@ -24,7 +24,7 @@ nav ul li {
 }
 
 #heberge,
-#activites {
+#activite {
     display: flex;
     justify-content: space-around;
     border-bottom: 2px solid #F2F2F2;
@@ -37,7 +37,7 @@ nav ul li {
 }
 
 #heberge:hover,
-#activites:hover {
+#activite:hover {
     border-bottom: 2px solid #0065FC;
 }
 
@@ -136,11 +136,11 @@ input {
 }
 
 /*Activités à Marseille*/
-#activite {
+#activites {
     padding: 20px 16px 30px 16px;
 }
 
-#activite .imgactivites {
+#activites .imgactivites {
     height: 8.6rem;
 }
 
