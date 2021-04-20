@@ -1,0 +1,151 @@
+/*HEADER*/
+nav ul {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+}
+
+nav ul li {
+    width: 50%;
+    padding-bottom: 20px;
+}
+
+#inscrire {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#logo a {
+    padding-left: 16px;
+}
+
+#inscrire a {
+    padding-right: 20px;
+}
+
+#heberge,
+#activite {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #F2F2F2;
+    padding-bottom: 16px;
+    width: 50%;
+}
+
+#heberge a{
+    padding-right: 20px;
+}
+
+#heberge:hover,
+#activite:hover {
+    border-bottom: 2px solid #0065FC;
+}
+
+/* la paritie main */
+body main {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* zone de recherche */
+.rechercher {
+    padding: 0px 16px;
+}
+h1 {
+    margin-top: 30px;
+}
+
+#bsearch {
+    display: none;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+#imgsearch {
+    padding: 10px;
+    color: #fff;
+    display: flex;
+}
+
+input {
+    flex-grow: 1;
+}
+
+#boutonsearch {
+    border-radius: 12px;
+    background:#0065FC;
+    border: none;
+    margin-left: -0.5rem;
+    display: flex;
+}
+
+/* les filtres*/
+#filtres {
+    padding: 0px 16px;
+}
+
+.titrefiltre {
+    margin-top: 30px;
+}
+
+.info  {
+    padding: 0px 16px 30px 16px;
+}
+
+/*la partie les plus populaires*/
+#populaires {
+    padding: 0px 16px 20px 16px;
+}
+
+#populaires figure {  
+    height: 8.3rem; 
+}
+
+#populaires .imgaside {
+    width: 35vw;
+    height: 8rem;
+}
+
+#populaires figcaption{
+    width: 45vw;
+}
+
+/*Les hebergements à Marseille*/
+#hebergements {
+    padding: 0px 16px 20px 16px;
+}
+
+#hebergements h2 {
+    margin: 0rem;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+}
+
+#hebergements .imgheberg {
+    height: 6rem;
+}
+
+#hebergements .fastar {
+    padding-bottom: 10px;
+}
+
+.afficherplus {
+    margin: 0.5rem 0rem 0rem 0rem;
+}
+
+/*Activités à Marseille*/
+#activites {
+    padding: 20px 16px 30px 16px;
+}
+
+#activites .imgactivites {
+    height: 8.6rem;
+}
+
+/* Footer (pied de page)*/
+footer .pieddepage {
+    flex-direction: column;
+    width: 50%;
+}
