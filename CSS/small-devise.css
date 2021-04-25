@@ -147,5 +147,4 @@ input {
 /* Footer (pied de page)*/
 footer .pieddepage {
     flex-direction: column;
-    width: 50%;
 }

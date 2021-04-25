@@ -226,11 +226,6 @@ figure {
     margin-top: 10px;
 }
 
-/* Footer (pied de page)*/
-footer .pieddepage {
-    width: 70vw;
-}
-
 /* Mode tablette*/
 @media only screen and (min-width: 768px) and (max-width: 990px) {
     #populaires {
